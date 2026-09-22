@@ -1,16 +1,16 @@
 {
   "name": "json-to-tag-table",
-  "version": "6.1.0",
+  "version": "7.1.0",
   "description": "Standalone, config-driven Table renderer built on top of json-to-dom",
   "type": "module",
-  "main": "src/v6/index.js",
+  "main": "src/v7/index.js",
   "files": [
     "src",
     "docs",
     "README.md"
   ],
   "exports": {
-    ".": "./src/v6/index.js"
+    ".": "./src/v7/index.js"
   },
   "scripts": {
     "dev": "vite",

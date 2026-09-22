@@ -46,11 +46,40 @@
     },
     "foot": [
         {
-            "id": "aggregate",
+            "id": "newEntry",
+            "type": "input",
+            "title": "Add New",
+            "values": {
+                "@_NAME": {
+                    "placeholder": "Enter Item Name..."
+                },
+                "BASEUNITS": {
+                    "placeholder": "Enter Units..."
+                }
+            }
+        },
+        {
+            "id": "recordCount",
             "type": "aggregate",
             "title": "Total Records",
             "values": {
                 "BASEUNITS": "count"
+            }
+        },
+        {
+            "id": "batchEstimate",
+            "type": "eval",
+            "title": "Est. Batches (50/pkg)",
+            "values": {
+                "BASEUNITS": "Math.ceil(recordCount.BASEUNITS / 50)"
+            }
+        },
+        {
+            "id": "statusSummary",
+            "type": "eval",
+            "title": "Inventory Status",
+            "values": {
+                "BASEUNITS": "'Active (' + recordCount.BASEUNITS + ' items)'"
             }
         }
     ],
