@@ -1,0 +1,32 @@
+[
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.09/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11-25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11-30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11/32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ZARI-ROOPAM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ZARI-YCONE",
+    "@_RESERVEDNAME": ""
+  }
+]

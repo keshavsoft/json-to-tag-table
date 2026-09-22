@@ -1,0 +1,12 @@
+[
+    {
+        "key": "@_NAME",
+        "label": "@_NAME",
+        "type": "string"
+    },
+    {
+        "key": "BASEUNITS",
+        "label": "BASEUNITS",
+        "type": "string"
+    }
+]
