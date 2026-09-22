@@ -1,7 +1,7 @@
 import compile from "../../../../../node_modules/json-to-spec/index.js";
 import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
 
-import structureJson from './structure.json' with {type: 'json'};
+import structureJson from '../structure.json' with {type: 'json'};
 
 const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
     try {

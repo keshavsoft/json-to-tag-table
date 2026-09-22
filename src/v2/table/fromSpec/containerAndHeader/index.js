@@ -1,20 +1,24 @@
 import compile from "../../../../../node_modules/json-to-spec/index.js";
-import specToDom from "../../../../../node_modules/@keshavsoft/json-to-dom/index.js";
+import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
 
-import structureJson from './structure.json' with {type: 'json'};
-import dataJson from './data.json' with {type: 'json'};
+import structureJson from '../structure.json' with {type: 'json'};
 
-const startFunc = ({ targetHtmlId, inColumns } = {}) => {
+const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
     try {
-        let columns = {};
-        columns.columns = inColumns;
+        let dataAsJson = {};
+        dataAsJson.columns = inColumns;
+        dataAsJson.data = inData;
+        dataAsJson.colGroup = inColGroup;
 
-        const specAsJsonToDom = compile({ specJson: structureJson, dataJson: columns, showLog: true });
+        const neededSpec = structureJson.children[0].children[0];
 
-        const fromRenderer = specToDom({ spec: specAsJsonToDom, targetHtmlId });
+        const specAsJsonToDom = compile({ specJson: neededSpec, dataJson: dataAsJson, showLog: true });
 
-        return fromRenderer;
+        const fromRenderer = jsonToTag(specAsJsonToDom);
 
+        const html = document.getElementById(targetHtmlId)
+
+        html.append(fromRenderer)
     } catch (error) {
         console.log("error : ", error);
     };
