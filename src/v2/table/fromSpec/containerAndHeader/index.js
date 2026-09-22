@@ -11,6 +11,7 @@ const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
         dataAsJson.colGroup = inColGroup;
 
         const neededSpec = structureJson.children[0].children[0];
+        console.log("neededSpec: ", neededSpec);
 
         const specAsJsonToDom = compile({ specJson: neededSpec, dataJson: dataAsJson, showLog: true });
 
