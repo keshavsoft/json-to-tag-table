@@ -1,5 +1,5 @@
-import buildSpecElement from "../../../../skeletonToSpec/v3/index.js";
-import compile from "../../../../../node_modules/json-to-spec/index.js";
+import skeletonToSpec from "../../../../skeletonToSpec/v3/index.js";
+import jsonToSpec from "../../../../../node_modules/json-to-spec/index.js";
 import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
@@ -17,14 +17,14 @@ const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
         dataAsJson.data = localData;
         dataAsJson.colGroup = localColGroup;
 
-        const structureJson = buildSpecElement({
+        const structureJson = skeletonToSpec({
             inSkeleton: skeletonJson,
             inFragments: fragmentsJson
         });
 
-        const specAsJsonToDom = compile({ specJson: structureJson, dataJson: dataAsJson, showLog: true });
+        const specAsJsonToDom = jsonToSpec({ specJson: structureJson, dataJson: dataAsJson, showLog: true });
 
-        const fromRenderer = jsonToTag({ spec: specAsJsonToDom, targetHtmlId: localTargetHtmlId });
+        const fromRenderer = jsonToTag(specAsJsonToDom);
 
         const html = document.getElementById(localTargetHtmlId);
 

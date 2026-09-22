@@ -26,7 +26,7 @@ const startFunc = async () => {
         targetContainerId: "filter-container"
     });
 
-    const k1 = table.methods.renderContainerHeaderAndData({ targetHtmlId: "table-container" });
+    const k1 = table.methods.renderContainerAndHeader({ targetHtmlId: "table-container" });
 
     // console.log("------table--- : ", k1, data, table.methods);
 };
