@@ -55,5 +55,39 @@
             }
         },
         "children": []
+    },
+    "tfoot": {
+        "tagName": "tfoot",
+        "attributes": {
+            "class": "table-light fw-bold"
+        },
+        "children": []
+    },
+    "cardHeader": {
+        "tagName": "div",
+        "attributes": {
+            "class": "d-flex justify-content-between align-items-center"
+        },
+        "children": [
+            {
+                "tagName": "h5",
+                "attributes": {
+                    "class": "card-title mb-0"
+                },
+                "textContent": "${title}"
+            }
+        ]
+    },
+    "cardFooter": {
+        "tagName": "div",
+        "attributes": {
+            "class": "d-flex justify-content-between align-items-center text-muted small"
+        },
+        "children": [
+            {
+                "tagName": "span",
+                "textContent": "${footerText}"
+            }
+        ]
     }
 }

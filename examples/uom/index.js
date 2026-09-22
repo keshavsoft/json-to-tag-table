@@ -1,7 +1,7 @@
 import columns from "./columns.json" with { type: "json" };
 import configJson from "./config.json" with { type: "json" };
 
-import { Table } from "../../src/v3/index.js";
+import { Table } from "../../src/v4/index.js";
 
 // const { Table } = await import("https://keshavsoft.github.io/json-to-dom-table/dist/v5/min.js");
 
@@ -26,7 +26,10 @@ const startFunc = async () => {
         targetContainerId: "filter-container"
     });
 
-    const k1 = table.methods.renderContainerHeaderAndData({ targetHtmlId: "table-container" });
+    table.methods.render({
+        targetHtmlId: "table-container",
+        inSkeletonType: "cardWithHeader"
+    });
 
     // console.log("------table--- : ", k1, data, table.methods);
 };

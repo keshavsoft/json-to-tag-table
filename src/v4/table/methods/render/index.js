@@ -1,15 +1,16 @@
 import skeletonToSpec from "../../../../skeletonToSpec/v3/index.js";
 import jsonToSpec from "../../../../../node_modules/json-to-spec/index.js";
-import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
+import jsonToTag from "@keshavsoft/json-to-tag";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};
 
-const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
+const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup, inSkeletonType = "default" } = {}) => {
     const localTargetHtmlId = targetHtmlId;
     const localColumns = inColumns;
     const localData = inData;
     const localColGroup = inColGroup;
+    const localSkeletonType = inSkeletonType;
 
     try {
         let dataAsJson = {};
@@ -17,8 +18,10 @@ const startFunc = ({ targetHtmlId, inColumns, inData, inColGroup } = {}) => {
         dataAsJson.data = localData;
         dataAsJson.colGroup = localColGroup;
 
+        const targetSkeleton = skeletonJson[localSkeletonType] ?? skeletonJson.default ?? skeletonJson;
+
         const structureJson = skeletonToSpec({
-            inSkeleton: skeletonJson,
+            inSkeleton: targetSkeleton,
             inFragments: fragmentsJson
         });
 
