@@ -1,12 +1,12 @@
 [
     {
-        "key": "name",
-        "label": "name",
+        "key": "@_NAME",
+        "label": "@_NAME",
         "type": "string"
     },
     {
-        "key": "originalName",
-        "label": "originalName",
+        "key": "BASEUNITS",
+        "label": "BASEUNITS",
         "type": "string"
     }
 ]

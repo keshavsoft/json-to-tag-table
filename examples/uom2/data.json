@@ -1,9 +1,7647 @@
 [
   {
-    "name": "kgs",
-    "originalName": "Kilograms",
-    "isSimpleUnit": "Yes",
-    "conversion": 0,
-    "decimalPlaces": 3
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.09/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11-25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11-30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11/32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.11/35mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.13/32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.14/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.14/32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.14/34mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.14/35mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.14/40mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.15/114mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.15/35mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/10mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/114/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/12",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/125/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/14/500(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/16/500",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/17mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/18/500",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/19mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/21",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/24/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/26/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/28(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/30(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/32(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/34/100md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/34/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/35/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/36",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/36/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/38",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/40 Dk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/40 MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/41",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/44/33 Sk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/44 MM DK",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/46",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/48mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/56",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/60/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/65mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/70",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16/90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.16 Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.18/34mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.19/38mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/100mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/108/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/114mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/125",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/137mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/16mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/20mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/24mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/26/130 KALAPET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/27",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/28",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/32",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/33mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/34mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/36mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/37mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/38",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/39mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/40mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/41mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/42-J.P",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/44",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/46",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/48",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/52",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/57mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/65mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/68",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/70mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/81",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20/90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20 Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.20small Hks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/100/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/108/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/108/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/108/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/108/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/110/110(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/110/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/114/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/114/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/114/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/120/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/120/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/125mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/127mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/130mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/135",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/137mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/140 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/150 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/155 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/16",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/160mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/165mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/170 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/175",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/180",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/187",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/187/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/18mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/230/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/24",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/26/600",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/28MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/31/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/31/500",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/34",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/36",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/37mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/38",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/41mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/42mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/44mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/48",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/52mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/53",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/53/110",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/54mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/55mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/56",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/56/125",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/65/50md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/68mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/70/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/70/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/85",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/90/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23/95/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23 Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "0.23 SMALL HANK",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.23smallhks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.25/24mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.25/26",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/100/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/100/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/100/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/100/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/102/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/102/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/102/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/102/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/108/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/108/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/108/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/108/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/100(N.P)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/114/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/120MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/125MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/127/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/130/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/135mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/137",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/150 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/160mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/175MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/180 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/187",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/200/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/20mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/210/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/220mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/225/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/230/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/26mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/275/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/28mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/36",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/44MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/52/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/52/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/53mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/54/150 Md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/54/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/54/250",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/54/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/54/600",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/56/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/57mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/58",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/70",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/75mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/85/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/90/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/90/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/90/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/92/50B",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/92/50W",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/95/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/95/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/95/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28/95/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28 Blue Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "0.28 SMALL HANK",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.28small Hanks Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.30/140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.30/150mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/100mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/102/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/10.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/114/90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/114mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/116mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/120MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/125MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/130MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/135",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/154",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/155mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/168mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/170mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/175/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/180/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/187/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/200MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/210/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/215mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/220mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/225/600 Md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/230MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/235/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/240MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/24mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/250",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/26mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/300/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/36mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/400mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/40 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/44mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/52/500",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/52/600",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/58mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/67",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/72",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/85mm/100md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32/95",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32 Green Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32 Hanks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "032MONO",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32 Mono Red",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.32 SMALL HANK",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/130",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/155",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/170",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/175",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/180",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/185",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/190",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/200mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/215mm/50md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/225",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/250mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/42",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/44 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/64mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/66 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/70/400",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40/98",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40 Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40 Hanks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40 Mono Red",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.40 Small",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/120mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/140 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/180",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/46mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45/68mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45 Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45 Hanks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.45 Mono Red",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/10",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/12 GNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/14 GNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/16",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/18 GNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/220mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/26mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/28",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/32",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/70/300 G",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/75/150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/80/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/85mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/8 MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50/90/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50 Hanks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.50 Mono Red",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.55 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/100/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/108",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/114mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/125",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/135",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/145/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/180",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/40mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/80/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60/90/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60 Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60 MONO",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.60 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.65 Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.70 Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.70 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/120 Hdpe Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/14",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/140/20md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/16",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/18",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/20 GSTD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/25",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/35",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/70",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/80/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/85/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/90/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/90/35md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.75/90/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.80/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.80/90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.80 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.80 Blue NP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.80 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85(12ply)50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85(12 Ply) 60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85(12ply)70mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85(12ply)80mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85/16",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85/18GNET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.85/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.90/190/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.90/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.90 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "0.90 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "1\"-Gum Tapes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "1000 MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/100mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/18",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/20 G",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/22",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "100*60 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00/90/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00 Blk Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "100 Hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "100mesh Twill",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "100 MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.00 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "10*21-200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "10/3-140MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "10/3-16mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "10/3-84mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "10*6.5 Silver",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.10/210mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.10/215",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.10 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.10 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.20 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "120 Hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "120 MESH",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.20 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-10MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-114mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 BLUE TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-12MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*12 Tech 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-14MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 BLU TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 Sil 150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*15 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-16MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*18 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*18 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*18 BLU TARP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*18 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*20 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-22MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*24 120 Sil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*24 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*24 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-24MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*24 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-26MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-28MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*30sil120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "12/3-140 (150)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "12/3-18mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12/3-430MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-34MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*36 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-36MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12/3-80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-4\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*40 200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-40MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-44MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-46MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12*50 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/240/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/300/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/400/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/45/300",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/500/50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.25/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1260D-2 Ply 90mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1260D4ply Nets",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1260D-6/2ply-86mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-8MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/2-9mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "12 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "12mtr*16mtr-(40.5*53)Sil120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.30 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.30 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-10MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-12MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-14MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-16MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-22MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-23mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-24MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-26MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-28MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-32MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-4\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-4.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-52MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-6\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-6mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-7\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-75MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-80MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/3-8MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.40 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "140 Mesh Twill",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.40 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/4-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/4-40MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1/4-44 DISCO",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/120mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/140/100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/200mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50(24ply)135mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50(24ply)30mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50(24ply)40mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50(24ply)60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50(24ply)80mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/300mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50-45mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/600mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50/60mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50 Blk Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "150MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.50 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*15 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*15 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 BLUE TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.5/18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 Sil 150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*18 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*21 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*24 200 Gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "15/3-155-75MD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "15/3-20mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "15*45",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.60 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "160hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.60 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "16*24 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "16*27 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "16*30 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "16*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "16 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.70 Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.70 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.80 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.80 Superline",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.80 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*19.5 Sil 120(4.80mtr*5.90mtr)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*21 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 150 SIL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 BLU TARP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 Canvas",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 Sil 150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*24 Tech 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*30 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*30 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*30 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*32 120 Sil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*36 200 Gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*36 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "18/3-NET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "18*40 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "1.90 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "2\"GUM TAPE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/100mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/110mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/145mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/1500/20MD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/150mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/155",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/160",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/175mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/200mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00(36ply)/1000mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00(36ply)/300 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00(36ply)/600mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/46/300",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00/80 mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "200 Hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "200MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.00 WHITE F.Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*20-200 Gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*20 Cotton",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*20 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*20 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*24 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*40 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20*40-Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20-MAYUR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20 Mesh 120\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20 Mesh 84\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20 Mesh Mq",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20pf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20 Rp",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "20-SHRADHA-48\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "20 x 48 Sil Trans 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.10 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "21*21 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "21*24 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "21*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.20 Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.20 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.20 WHITE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-130mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-140mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-16",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-22mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-23mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-24mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-26mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-28MM NAIK",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-32MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/2-5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.25 Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "225MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-10MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-12MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-14MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-16MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-190",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-22MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-24MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-265MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-26MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-28MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-32",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-34MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-36MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-4\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-40MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-44MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-45mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-46mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-47mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-48mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-50mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-52mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-5.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-6\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-62MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-6.5\" >",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-75/100 DAMAN",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-8MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-9\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2/3-90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*24 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 BLU TARP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 SIL 120G",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 Sil 150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*27 SIL 90G",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*30 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*30 Sil120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*30 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 120 SIL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 90 SIL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 Tech 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*33 Tech 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*36-120 Sil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*36 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*36 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*37 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*40 200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*40 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*45 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "24*45 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "24-ASMITA-48\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "24 Blue Pf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "24 Green Pf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "24 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "2.5\" Octopus",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50/150mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50/40mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50/45mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": " Not Applicable",
+    "@_NAME": "2.50/5000mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50/60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50/80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50 Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "250 Hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "250micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.50 White F.Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "25*25- 200 GSM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.5/50MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2.5/80MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "26GG",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*30 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*30 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*30 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*30 Tech 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*30 Tech 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*35 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*35 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*35 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*35 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "27*38 200 Gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "28*35 Tarp",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "28 Mesh Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "2MM/200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "3\"GUMTAPES",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "3\"OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.00/60mm Hdpe",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.00 Blk Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.00 Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.00 WHITE F.Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30  200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30 BLUE TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*30 Tech 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*33 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*36-150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*36 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "30/3-65mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*36 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*40 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*40-200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*40 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*40 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "30*50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.0/60 MM GARWARE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "30 Blue Pf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "30-MADHURAM-48\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "30 Mesh Mq",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "30 Pink",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "30ply 135 mm Hdpe",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "30 Ply 138mm Hdpe",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "30 White",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "315MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "32*64 (13mtr*20mtr)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "3.2 Tuna Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-10.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-10mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-14MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-16MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-18mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-20MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-22mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-24mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-26MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-28mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-32",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-36MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-40 MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-42 MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-44MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-45mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-46",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-58MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-6\"(152mm)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-63MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-80/130 GOLDUN",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3/3-90-100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "3.4 Tuna Hook",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "3.5\"OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.50 Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "350hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "350 Micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.50 White F.Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.60 Fline",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "36GG",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "3.80 Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "38*72 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "4\"OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "4.0\" Octopus",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4.00 Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "400 Micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4.00 White F.Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*40 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*40 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*40 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*40 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*50 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*50 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "40*60 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "40 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "40mesh Nylon",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "40-PUSHPAM-48\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "42*80-Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "42 ft X48 ft",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "4.2 Tuna Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "42 x 50 Sil Trans 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "42 x 71 Sil Trans 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-108MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-12MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-18MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-20mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-26MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-28",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-32",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-34mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-35mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-36MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-40MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-44MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-46",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-52",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-56",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-65mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-75MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4/3-90mm-",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "450 Hd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "45 MONO RED",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "48*48 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "4mesh Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "4-M HOOKS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "4mm Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "5\"OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "500MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5.00mm Blk",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*115 70gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*50 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*50 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*50 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*55 70gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*60 70gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "50*60 Sil120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-110-110",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-24",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-34",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-36 MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "5/3-52mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "54*164 Sil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "5-M HOOKS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "5micron-80\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "600micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*40 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*40 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*50 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*50 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*60 120gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*60-200",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*60 90gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "60*60 Sil 150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "60 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "60mesh Nylon",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-100-20 Md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-10MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-110-110MD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-140MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-32mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-34",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "63*35 Trans 120 Tech",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-36MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-38MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-42MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-46MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-52MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-65",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-74mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "6/3-80mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 COTTON MNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 Gold",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 PLATIMUM MNETS \"c\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 SALEM MNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 Sil 70",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 Sil90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 SILVER MNETS 'D'",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*4 Super",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6.5*3 Gold",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6.5*-7.5* C Platinum",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*5-Silver",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 COTTON MNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 DIAMOND",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 PLATINUM MNETS \"C\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 SALEM MNETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 Sil90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 SILVER MNETS \"D\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*6 Super",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6*7 C",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "68GG",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "6mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "6mesh Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "700MICRON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "72*70 150 Sil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "7/3-100",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "7/3-110-50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "7/3-145mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "7/3-73MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "7/3-76mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "7.5*7.5 Silver",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "7*8 C Platinum",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "7*8 D Silver",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "800 Micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "80*60 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "80*60 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "80*80 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "80-Mesh 48\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "8*25 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-100MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-110MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-125",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-135",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-138mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-140MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-142",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-144",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-145",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-30MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-36mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-72",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-74",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-76",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "8/3-80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "8*6.5 Silver",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "8 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "8XXX IMP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "90/40 A Qlt",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 BLUE TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 SIL 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 SIL 70",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*12 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-125mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-130-30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-140mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-141mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-142mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-143mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-144mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-145mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-75mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-76",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-78",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3-80",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "9/3 Nets for Scheme",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*6 150gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*6 200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*6 BLUE TAR",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*6 Sil 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*6 Sil 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*9-150 Gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*9-200gsm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*9 BLUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*9 SIL 120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "9*9 SIL 90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "9XXX IMP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "AABL2-Ands-150",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "A/c Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ADFL-300 W",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ADFL-50 W",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Adhanya-Knitted Fabric Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ADSL100W Street Light",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "AGNI",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Airpump",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Ali Pvc Sheet",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Anchor Gaff Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Anchor Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ancora Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ancora Loose",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-325",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands345",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-1195",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-145",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-1495",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-195",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-255 DBR-1",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-325",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-55",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-595",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-99",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite AAHR-2",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Accessories",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Acupressure",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Adaptor",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Bagula-2 Pro",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Battery",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Beam",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Bolt (Solar Recharble)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Capture (Solar Rechgble)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE CROWN",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Dbex-2",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "AndsliteDBEX4",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Dmrx3",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Dmrx4",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE HEAD LIGHT",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Inverter-5995/-SHL-2",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Inverter-Lhl1",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Jupiter(Solar Rechgble)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE-KISHAN-995",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ANDSLITE LANTERN",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite  Led Bulb",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite LIRT",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Luster",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Mosquito Bat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Nano",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Nano Eco",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Powerstar",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-RHL-1",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-RHL-2",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-RHL-3 (W/o Charger)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Rider",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Andslite-Rwgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-SHL-1-3995/-Inverter",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Solar Combo Pack",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite-Solar Panel",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Andslite Vip Plus",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-Metal Torch",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-Nano XL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-Ranger",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-Shine",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands Studylite",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands Tejas",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands-Tejas Shakti",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ands Vip",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Arrow Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Arrow Hooks Loose",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BAGCLOSER",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Bagnet(Chikkam)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Bag Net -Kgs-Chikkam",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Bajaj Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Baliga Floats",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Baliga Lines",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Barbed Wire Poly",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Barra Spoon",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Barrel Swivel",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Basins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BAT",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BATTERY",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Bekohooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Big Hole-Knitted Fabric Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Bike Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Bleaching Hapa",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Blesso Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BOARD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BOAT NET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BOBBINS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Braided Lines Twisted",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Braided Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Braided Twine",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Branch Swivels",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Bubble Wrap",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Budithi",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Buditi Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "BULLETS Rubber",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "C-1\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "C-1.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "C-2.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Canvas Cloth",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Car Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Carrybags",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "CAST NET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Cbm Led",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "CE121",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Cell Phone Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Chainlink Mesh PET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "CHECKTRAY",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Check Tray Frames",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Checktray Stitched",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Circle Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "CLIPS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "C.OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Combo Fish Box (Y)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Concrete Tapes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Copper Sleeves",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "CORDEND",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Cow Mat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Cr Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Crown Hooks Loose",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "C.WIRE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Diving Board",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Drag Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "DUCT TAPES",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Dura Protector",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "sft",
+    "@_NAME": "Durowipe",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Dye Loose",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "DYES",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "EPS SHEETS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready CFL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready Charger",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready DL 51",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready DL66",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready Dl91 Rechble",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready Fm Radio",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Eveready Lantern",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Export Surplus Line",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Export Surplus New",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "F8 Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Face Shield",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Fishing Reel(Rod)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FISHING ROD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Fishing Rod Stick",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "FISH LINE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Fishnet",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FLASHLIGHT",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "F/LIGHT DOUBLE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "F/light- Pencell",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "F/LIGHT SINGLE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "F/light Triple",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "F.LINE PKTS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "FLOATS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 100/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FLOATS 100*75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FLOATS 110*90",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 125/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 125/75",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats150*20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 150*20 B Quality",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 150/40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 175/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 209",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 60*50",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 65*40",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 65*60 (Small Egg)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 70/20",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 70*30",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 76*38",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Floats 80*60",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FLOATS 90*65",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Floats Kapasi Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "FLOATS PCS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "FLOATS SCRAP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Fruit Bag Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Fruit Bag Nos",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Fruit Bags Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Garbage Bags",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Garden Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Garfil Std Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Gargil 12/150mm/85md",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Gargil Twine",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gd 100gms Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "GD 25gms Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gd 50gms Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "GD Connected",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Geo Membrane",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "G.I.Wire Tata",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Glass Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gloves",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Gmd Lines",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Gopika-Knitted Fabric Mtr",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gps",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gps Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Green Tubes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "G ROPE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Gunny Bags",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "HALCO-120",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "HALCO-140",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "HALCO-95",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "HALCO-D",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Halco Original",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Hapa",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Harvestnets(Gwrl)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Harvest Nets(Toka Vala)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Hatchery Bat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Hatchery Bat Stitched",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Hdpe Knotless 10mm 48ply",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "HDPE NET CUTS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Hdpe Twine Small",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "HDP LINE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Head Light Rechagrble",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Heat Sealin Machine",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "HOOKS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ice Box",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ice Box Accessories",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Insulation Tapes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Iron Bats Stitched",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Iron Coated Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Iron Needles",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "I.R.Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Jig",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "JK Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Jumbo Bags",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Jungle Cloth",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "K.Export",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Knife",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "KNOTLESS 10MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "KNOTLESS 2/3 12mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "KNOTLESS 2MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Knotless 4mm Sf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Knotless5mm Sf",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "KNOTLESS 6MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "KNOTLESS 8MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Kodi Butta",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Kodi Tadu",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Kohinoor Std Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Kolkata Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Kumaran Connected",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Kumaran Std Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Landing Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "LEAD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Lead Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "LG Hardtwist Ropes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LIFE BUOY",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LIFE JACKET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Life Jacket Light",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Light Stick",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Limirick Ring Hooks Viaadi",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Long Bulb Sotelo",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LOOP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Lucana Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Lucana Triple",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LURES-120MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LURES-150MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "LURES-180MM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Magnet Mosquito Curtains",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mango Cutter",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mask(Dive Mask)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "MASTIC PADS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-1.5kgs (C.D. Brand)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-1.75kg",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-Anjani",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Bangladesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Hanuman",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Honda-1.9kg",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Kangaroo-54\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Metro-2.4kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-Motor Cycle",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Priyagold-54\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Priyalite",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Priyalite Blue",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Priyalite Green",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Scorpio",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-Sumo-4kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Sunflower 3.1 Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf-Sunflower (PF)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Sunlite (1.7kgs)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Suvasini",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mcf Tamoto 2.1kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Mix Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mody-EVA Tarpaulins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Mono Bobbins",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "MONOCUTS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mono Reels Small",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Mono Shadenet Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mono Shading Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Mooring Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "sft",
+    "@_NAME": "Mosq Mesh",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mosq Nets for Pipes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mosq Nets Hosur",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mosquito Bat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Mulching Film",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Mulching Film-Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mustad Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Mustad Hooks New",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-10CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-12CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-2.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-2.5cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-3\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-3.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-3CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-4.\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-4.5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-4CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-5\"",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-5CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-6CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-7CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "N-8CM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Needle Baits",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "NEEDLES",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "NETLON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Bingo",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Black Berry",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Bodygaurd",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Radium",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Rechargable Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Watt Lite",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nippo Zoom Lite",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Non Woven 100micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Non Woven 150micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Non Woven 200micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Non Woven 5  Micron",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Non Woven Fabric Hyloft",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "N.ROPE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "NYLON",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nylon Cheeses",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Nylon Cheeses Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "NYLON CUTS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Nylon Kl 22 12mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Nylon Kl 22 14mm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Nylon Reels",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nylon Reels Nos(Small)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Nylon Tarpaulins Nos",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Nylon Tarp Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Nylon Tarp Roll",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "OCTOPUS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Oldnet",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Orkia Rechgble Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Pandiri Vala",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Para Anchor",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Para Anchor Cloth",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Para Anchor Small",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Parachute Cloth",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "PET Clear Line Sfil",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Picker Head Light",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Plankton Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Plant Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Plastic Floats(Pcs)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Plates",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Polyester Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Poly House Film",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Poly Nylon",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Poly Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Poosa Tadu",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Pp Bags",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Pp Braided Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "PPE Kits",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "PPMF Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "PPMF TWINE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Praise Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "P.SHEET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "P Sports Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Pvc Sheet",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Pvc Tarpaulin Mtr",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "RAFIA",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Rain Coats",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Rain Covers",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Rechargable Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ring Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "RINGS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Roadwaste",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ROD",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "ROPE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "ROPENET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Rope Reel",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Rose Knitted Fabric Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Rp Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Rubber Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Safety Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "sft",
+    "@_NAME": "Saint Gobain",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Sanitizer",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Scooping Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Scooping Net New",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Self Adhesive Sticker Tape",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "SGN Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Shackles",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Shadenet Colour",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Shadenet Sail",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "SHADING NET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Shading Net Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ship /double",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Shop Octopus",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Showway",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Shrimps",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Sil Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Sil Mtrs Ljute",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "SILPAULIN 120 Sizes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Silpaulin Neo",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Silpaulin Sathi",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Silpaulin Sathi Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Single Bulbs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "SLEEVES",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Snaps",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Sotelo Lights",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Sotelo Single Color",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Spool",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Spoon Scoops",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Sports Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "SQUID",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Sreema Lines",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Star Indian Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Star Lines",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Steel Bat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Steel Bat Sticthced",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "STEELWIRE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Steel Wire Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Steel Wire Loop",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Steel Wire Small",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Sticker",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "STRAP",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "STRAP 12MM BIG",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Stretch Film Or Wrapping",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Superfil Bobbins Nos",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Superfil Export Surplus Black",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Superline",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Superline Connected",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "SUTALI",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Swan Hooks (Indian)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Swan Loose Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "S.Wire",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "SWIVELS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Swivel with Snap",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "TAPE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Tarpaulin",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Tarpaulin Kgs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Tarpaulin Tape",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Tarp-Shading Net",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Tarp Tape Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Techpaulin Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "TENNIS NET",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Tiger-Knitted Fabric",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "TINSEL",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Tinsel-Y",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Tinsel Zari Patty",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "TONGUE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Torpedo",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Transparent Sheet",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "TRAYS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Triple Hooks Young",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Tube Octopus",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "Tuf Std Rope Danline",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "kgs",
+    "@_NAME": "TWINE",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "VELCRO",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Velcro Sticker",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Vermibed",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "VEST (WORKWEST)",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Viaadi Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Viaadi Loose Hooks",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Viaadi Ring Hooks -1962 R",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Waste Bin Nilkamal",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Water Proof Cloth",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Waterproof Tape",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Water Proof Tape Mtrs",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Weedmat",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "Wire Rope",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Wooden Bat Stitched",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "mtr",
+    "@_NAME": "WOVENFABRIC",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Xenon Light",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "XL Bond Sizes",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 10cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 11cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 12cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 15cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 20cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 3cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 4cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 6cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y- 8cm",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Ybarrel Swivels",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y Cones",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y Octopus-Mix in inch",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Y Sports Fish",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Yuli",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ZARI-BOBBINS",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "Zari-Ribbons",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ZARI-ROOPAM",
+    "@_RESERVEDNAME": ""
+  },
+  {
+    "BASEUNITS": "Nos",
+    "@_NAME": "ZARI-YCONE",
+    "@_RESERVEDNAME": ""
   }
 ]

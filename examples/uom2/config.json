@@ -6,11 +6,11 @@
     },
     "colgroup": [
         {
-            "key": "name",
+            "key": "@_NAME",
             "width": "30%"
         },
         {
-            "key": "originalName",
+            "key": "BASEUNITS",
             "width": "70%"
         }
     ],
@@ -40,8 +40,8 @@
     ],
     "head": {
         "columns": [
-            "name",
-            "originalName"
+            "@_NAME",
+            "BASEUNITS"
         ]
     },
     "foot": [
