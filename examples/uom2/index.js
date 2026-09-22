@@ -1,9 +1,9 @@
 import columns from "./columns.json" with { type: "json" };
 import configJson from "./config.json" with { type: "json" };
 
-// import { Table } from "../../src/v4/index.js";
+import { Table } from "../../src/v5/index.js";
 
-const { Table } = await import("https://keshavsoft.github.io/json-to-tag-table/dist/v4/min.js");
+// const { Table } = await import("https://keshavsoft.github.io/json-to-tag-table/dist/v4/min.js");
 
 import { createDataProvider } from "https://keshavsoft.github.io/json-to-dom-provider/dist/v1/min.js";
 

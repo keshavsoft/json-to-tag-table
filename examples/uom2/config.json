@@ -1,5 +1,5 @@
 {
-    "serial": false,
+    "serial": true,
     "caption": {
         "text": "Purchase Records",
         "class": "caption-top fw-bold text-secondary ps-2 pb-1"
@@ -48,17 +48,9 @@
         {
             "id": "aggregate",
             "type": "aggregate",
+            "title": "Total Records",
             "values": {
-                "inwardQty": "sum",
-                "outwardQty": "sum"
-            }
-        },
-        {
-            "id": "netValue",
-            "type": "eval",
-            "values": {
-                "inwardQty": "aggregate.inwardQty - aggregate.outwardQty",
-                "outwardQty": "aggregate.outwardQty - aggregate.inwardQty"
+                "BASEUNITS": "count"
             }
         }
     ],
