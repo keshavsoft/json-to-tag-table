@@ -1,6 +1,10 @@
 import skeletonToSpec from "../../../../skeletonToSpec/v3/index.js";
-import jsonToSpec from "../../../../../node_modules/json-to-spec/index.js";
-import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
+
+// import jsonToSpec from "../../../../../node_modules/json-to-spec/index.js";
+// import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
+
+import jsonToSpec from "../../../../../jsonToSpec/v1/index.js";
+import jsonToTag from "../../../../../jsonToTag/v1/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};
@@ -57,14 +61,14 @@ const startFunc = ({
 
         if (!hasFooterData && !hasInputRow) {
             removeSlot({ inNode: targetSkeleton, inSlotName: "tfoot" });
-        }
+        };
 
         const structureJson = skeletonToSpec({
             inSkeleton: targetSkeleton,
             inFragments: fragmentsJson
         });
 
-        const specAsJsonToDom = jsonToSpec({ specJson: structureJson, dataJson: dataAsJson, showLog: true });
+        const specAsJsonToDom = jsonToSpec({ specJson: structureJson, dataJson: dataAsJson, showLog: false });
 
         if (hasInputRow) {
             const findTfoot = (node) => {
@@ -86,7 +90,8 @@ const startFunc = ({
                 }
                 tfootNode.children.unshift(localInputRow);
             }
-        }
+        };
+        console.log("specAsJsonToDom--- : ", specAsJsonToDom);
 
         const fromRenderer = jsonToTag(specAsJsonToDom);
 

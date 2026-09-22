@@ -40,8 +40,9 @@
     ],
     "head": {
         "columns": [
-            "@_NAME",
-            "BASEUNITS"
+            "DATE",
+            "VOUCHERNUMBER",
+            "ALLINVENTORYENTRIES.LIST"
         ]
     },
     "foot": [
@@ -79,5 +80,46 @@
         "tr": "",
         "td": "",
         "tfoot": "table-group-divider fw-bold"
+    },
+    "innerTable": {
+        "ALLINVENTORYENTRIES.LIST": {
+            "serial": true,
+            "caption": {
+                "text": "Purchase Records",
+                "class": "caption-top fw-bold text-secondary ps-2 pb-1"
+            },
+            "colgroup": [
+                {
+                    "key": "@_NAME",
+                    "width": "30%"
+                },
+                {
+                    "key": "BASEUNITS",
+                    "width": "70%"
+                }
+            ],
+            "columnsConfig": [],
+            "head": {
+                "columns": [
+                    "DATE",
+                    "VOUCHERNUMBER",
+                    "ALLINVENTORYENTRIES.LIST"
+                ]
+            },
+            "foot": [],
+            "row": {
+                "striped": true,
+                "hover": true
+            },
+            "classes": {
+                "table": "table table-hover table-striped table-sm align-middle mb-0",
+                "thead": "table-light",
+                "th": "text-uppercase fw-semibold",
+                "tbody": "",
+                "tr": "",
+                "td": "",
+                "tfoot": "table-group-divider fw-bold"
+            }
+        }
     }
 }

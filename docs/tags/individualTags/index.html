@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Individual Tags Directory • @keshavsoft/json-to-tag</title>
+  <meta name="description" content="Directory of separate, individual specification and rule pages for all 30 HTML elements supported in @keshavsoft/json-to-tag." />
+
+  <script>
+    if (!window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('.html')) {
+      window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+    }
+  </script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <style>
+    body {
+      background-color: #f8fafc;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #1e293b;
+    }
+    .tag-grid-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      padding: 0.85rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .tag-grid-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      border-color: #cbd5e1;
+    }
+  </style>
+</head>
+<body class="p-3 p-md-4">
+  <div class="container" style="max-width: 980px;">
+    
+    <!-- Unified Top Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3 py-2 rounded-3 mb-4 shadow-sm">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand fw-bold fs-6 d-flex align-items-center gap-2" href="../../index.html">
+          <i class="bi bi-tag-fill text-primary"></i> json-to-tag
+        </a>
+        <div class="navbar-nav d-flex flex-row gap-1 flex-wrap">
+          <a class="nav-link px-2" href="../../index.html">Home</a>
+          <a class="nav-link active px-2 fw-semibold text-info" href="../index.html">Tags Catalog</a>
+          <a class="nav-link px-2" href="../../summary/index.html"><i class="bi bi-cloud-arrow-up me-1"></i>Upload JSON (Review)</a>
+          <a class="nav-link px-2 text-warning" href="../../playground/index.html"><i class="bi bi-play-circle me-1"></i>Playground</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2 pb-2 border-bottom">
+      <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+          <i class="bi bi-folder2-open text-primary fs-3"></i>
+          <h1 class="h3 fw-bold mb-0">Individual Tags Directory</h1>
+          <span class="badge bg-primary-subtle text-primary border border-primary-subtle">30 HTML Elements</span>
+        </div>
+        <p class="text-muted small mb-0">
+          Dedicated individual specification and rule pages for each supported tag in <code>tags.json</code>.
+        </p>
+      </div>
+      <div class="d-flex gap-2 flex-wrap">
+        <a href="../../summary/index.html" class="btn btn-warning text-dark btn-sm fw-semibold">
+          <i class="bi bi-cloud-arrow-up me-1"></i> Upload JSON Spec
+        </a>
+        <a href="../index.html" class="btn btn-outline-secondary btn-sm">
+          <i class="bi bi-arrow-left me-1"></i> Back to Tags Catalog
+        </a>
+        <a href="../tags.json" target="_blank" class="btn btn-outline-primary btn-sm">
+          <i class="bi bi-file-earmark-code me-1"></i> tags.json (SSOT)
+        </a>
+      </div>
+    </div>
+
+    <!-- Quick Jump Toolbar -->
+    <div class="card shadow-sm border-0 mb-4">
+      <div class="card-body p-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-2">
+          <label for="selectTag" class="form-label small fw-bold text-muted mb-0 text-uppercase">Jump Directly to Tag:</label>
+          <select id="selectTag" class="form-select form-select-sm font-monospace" style="width: 180px;">
+            <option value="">Select a tag...</option>
+            <option value="a">&lt;a&gt;</option>
+            <option value="button">&lt;button&gt;</option>
+            <option value="checkbox">&lt;checkbox&gt;</option>
+            <option value="col">&lt;col&gt;</option>
+            <option value="colgroup">&lt;colgroup&gt;</option>
+            <option value="datalist">&lt;datalist&gt;</option>
+            <option value="div">&lt;div&gt;</option>
+            <option value="form">&lt;form&gt;</option>
+            <option value="h1">&lt;h1&gt;</option>
+            <option value="h2">&lt;h2&gt;</option>
+            <option value="header">&lt;header&gt;</option>
+            <option value="hr">&lt;hr&gt;</option>
+            <option value="i">&lt;i&gt;</option>
+            <option value="img">&lt;img&gt;</option>
+            <option value="input">&lt;input&gt;</option>
+            <option value="label">&lt;label&gt;</option>
+            <option value="li">&lt;li&gt;</option>
+            <option value="option">&lt;option&gt;</option>
+            <option value="p">&lt;p&gt;</option>
+            <option value="select">&lt;select&gt;</option>
+            <option value="small">&lt;small&gt;</option>
+            <option value="span">&lt;span&gt;</option>
+            <option value="table">&lt;table&gt;</option>
+            <option value="tbody">&lt;tbody&gt;</option>
+            <option value="td">&lt;td&gt;</option>
+            <option value="tfoot">&lt;tfoot&gt;</option>
+            <option value="th">&lt;th&gt;</option>
+            <option value="thead">&lt;thead&gt;</option>
+            <option value="tr">&lt;tr&gt;</option>
+            <option value="ul">&lt;ul&gt;</option>
+          </select>
+        </div>
+        <span class="text-muted small">Or click any tag card below to inspect its live rules</span>
+      </div>
+    </div>
+
+    <!-- Category 1: Form & Input Controls -->
+    <div class="mb-4">
+      <h2 class="h6 fw-bold text-uppercase text-secondary mb-3" style="letter-spacing: 0.05em;">
+        <i class="bi bi-ui-checks text-success me-1"></i> Form &amp; Input Controls (8)
+      </h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-3">
+          <a href="./label.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;label&gt;</span>
+              <span class="badge bg-success-subtle text-success small">Form</span>
+            </div>
+            <p class="text-muted small mb-0">Caption for form controls</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./input.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;input&gt;</span>
+              <span class="badge bg-warning-subtle text-warning-emphasis small">Void</span>
+            </div>
+            <p class="text-muted small mb-0">User data entry control</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./checkbox.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;checkbox&gt;</span>
+              <span class="badge bg-warning-subtle text-warning-emphasis small">Void</span>
+            </div>
+            <p class="text-muted small mb-0">Boolean toggle checkbox</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./button.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;button&gt;</span>
+              <span class="badge bg-success-subtle text-success small">Form</span>
+            </div>
+            <p class="text-muted small mb-0">Action trigger &amp; submit</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./form.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;form&gt;</span>
+              <span class="badge bg-success-subtle text-success small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Interactive form container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./select.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;select&gt;</span>
+              <span class="badge bg-success-subtle text-success small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Drop-down option menu</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./option.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;option&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Text</span>
+            </div>
+            <p class="text-muted small mb-0">Select choice item</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./datalist.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;datalist&gt;</span>
+              <span class="badge bg-success-subtle text-success small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Input recommendations</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 2: Table Elements -->
+    <div class="mb-4">
+      <h2 class="h6 fw-bold text-uppercase text-secondary mb-3" style="letter-spacing: 0.05em;">
+        <i class="bi bi-table text-primary me-1"></i> Table Elements (9)
+      </h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-3">
+          <a href="./table.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;table&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Tabular data container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./thead.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;thead&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Table header group</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./tbody.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;tbody&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Table body data rows</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./tfoot.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;tfoot&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Container</span>
+            </div>
+            <p class="text-muted small mb-0">Table footer summary</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./tr.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;tr&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Row</span>
+            </div>
+            <p class="text-muted small mb-0">Horizontal table row</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./th.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;th&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Header Cell</span>
+            </div>
+            <p class="text-muted small mb-0">Column / row header</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./td.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;td&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Data Cell</span>
+            </div>
+            <p class="text-muted small mb-0">Standard table data cell</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./colgroup.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;colgroup&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Group</span>
+            </div>
+            <p class="text-muted small mb-0">Column definition group</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./col.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;col&gt;</span>
+              <span class="badge bg-warning-subtle text-warning-emphasis small">Void</span>
+            </div>
+            <p class="text-muted small mb-0">Column style spec</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 3: Lists & Structural Containers (5) -->
+    <div class="mb-4">
+      <h2 class="h6 fw-bold text-uppercase text-secondary mb-3" style="letter-spacing: 0.05em;">
+        <i class="bi bi-layout-sidebar-inset text-secondary me-1"></i> Lists &amp; Structural Containers (5)
+      </h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-3">
+          <a href="./div.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;div&gt;</span>
+              <span class="badge bg-secondary-subtle text-secondary small">Block</span>
+            </div>
+            <p class="text-muted small mb-0">Universal flow container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./header.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;header&gt;</span>
+              <span class="badge bg-secondary-subtle text-secondary small">Structure</span>
+            </div>
+            <p class="text-muted small mb-0">Introductory &amp; nav container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./hr.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;hr&gt;</span>
+              <span class="badge bg-warning-subtle text-warning-emphasis small">Void</span>
+            </div>
+            <p class="text-muted small mb-0">Thematic divider &amp; separator</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./ul.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;ul&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">List</span>
+            </div>
+            <p class="text-muted small mb-0">Unordered list container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./li.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;li&gt;</span>
+              <span class="badge bg-primary-subtle text-primary small">Item</span>
+            </div>
+            <p class="text-muted small mb-0">List item element</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category 4: Typography, Links & Phrasing (8) -->
+    <div class="mb-4">
+      <h2 class="h6 fw-bold text-uppercase text-secondary mb-3" style="letter-spacing: 0.05em;">
+        <i class="bi bi-fonts text-info me-1"></i> Typography, Links &amp; Phrasing (8)
+      </h2>
+      <div class="row g-3">
+        <div class="col-sm-6 col-md-3">
+          <a href="./h1.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;h1&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Heading</span>
+            </div>
+            <p class="text-muted small mb-0">Primary page heading</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./h2.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;h2&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Heading</span>
+            </div>
+            <p class="text-muted small mb-0">Section level heading</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./p.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;p&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Text</span>
+            </div>
+            <p class="text-muted small mb-0">Standard paragraph block</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./span.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;span&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Inline</span>
+            </div>
+            <p class="text-muted small mb-0">Phrasing inline container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./small.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;small&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Text</span>
+            </div>
+            <p class="text-muted small mb-0">Secondary small print &amp; notes</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./a.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;a&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Link</span>
+            </div>
+            <p class="text-muted small mb-0">Hyperlink navigation anchor</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./i.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;i&gt;</span>
+              <span class="badge bg-info-subtle text-info-emphasis small">Icon</span>
+            </div>
+            <p class="text-muted small mb-0">Vector glyph &amp; icon container</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="./img.html" class="tag-grid-card">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span class="badge bg-primary font-monospace fs-6 px-2 py-1">&lt;img&gt;</span>
+              <span class="badge bg-warning-subtle text-warning-emphasis small">Void</span>
+            </div>
+            <p class="text-muted small mb-0">Embedded image element</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-muted small py-4 border-top">
+      <p class="mb-0">
+        Powered by <strong>@keshavsoft/json-to-tag</strong> • 
+        <a href="../../index.html" class="text-secondary text-decoration-none">Docs Home</a> • 
+        <a href="../index.html" class="text-secondary text-decoration-none">Tags Catalog</a> • 
+        <a href="../../summary/index.html" class="text-secondary text-decoration-none">Upload JSON (Review)</a> • 
+        <a href="../../playground/index.html" class="text-secondary text-decoration-none">Playground</a> • 
+        <a href="../tags.json" class="text-secondary text-decoration-none">tags.json (SSOT)</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("selectTag").addEventListener("change", (e) => {
+      if (e.target.value) {
+        window.location.href = "./" + e.target.value + ".html";
+      }
+    });
+  </script>
+</body>
+</html>

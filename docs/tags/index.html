@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tags Catalog &amp; Rules Analysis • @keshavsoft/json-to-tag</title>
+  <meta name="description" content="Visual specification and rules catalog for all HTML elements supported in tags.json." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <style>
+    body {
+      background-color: #f8fafc;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #1e293b;
+    }
+    .metric-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .metric-val {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #2563eb;
+    }
+    .metric-lbl {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #64748b;
+      font-weight: 600;
+    }
+    .tag-row-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      padding: 1.15rem 1.25rem;
+      margin-bottom: 0.85rem;
+      transition: all 0.15s;
+    }
+    .tag-row-card:hover {
+      border-color: #94a3b8;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    }
+    .attr-pill {
+      font-family: monospace;
+      font-size: 0.8rem;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 0.15rem 0.45rem;
+      border-radius: 0.25rem;
+      display: inline-block;
+      margin: 0.1rem;
+    }
+    .sample-box {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: monospace;
+      font-size: 0.775rem;
+      padding: 0.6rem 0.85rem;
+      border-radius: 0.375rem;
+      position: relative;
+    }
+    pre.code-dump {
+      background: #0f172a;
+      color: #38bdf8;
+      font-family: monospace;
+      font-size: 0.8rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      max-height: 380px;
+      overflow-y: auto;
+    }
+    .filter-chip {
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+    .view-btn {
+      font-size: 0.8rem;
+    }
+    .table-spec th {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: #f1f5f9;
+      color: #475569;
+    }
+    .table-spec td {
+      vertical-align: middle;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body class="p-3 p-md-4">
+  <div class="container" style="max-width: 980px;">
+    
+    <!-- Unified Top Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-3 py-2 rounded-3 mb-4 shadow-sm">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand fw-bold fs-6 d-flex align-items-center gap-2" href="../index.html">
+          <i class="bi bi-tag-fill text-primary"></i> json-to-tag
+        </a>
+        <div class="navbar-nav d-flex flex-row gap-1 flex-wrap">
+          <a class="nav-link px-2" href="../index.html">Home</a>
+          <a class="nav-link active px-2 fw-semibold text-info" href="./index.html">Tags Catalog</a>
+          <a class="nav-link px-2" href="../summary/index.html"><i class="bi bi-cloud-arrow-up me-1"></i>Upload JSON (Review)</a>
+          <a class="nav-link px-2 text-warning" href="../playground/index.html"><i class="bi bi-play-circle me-1"></i>Playground</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2 pb-2 border-bottom">
+      <div>
+        <h1 class="h3 fw-bold mb-1">
+          <i class="bi bi-journal-code text-primary me-2"></i><code>tags.json</code> Catalog &amp; Rules Analysis
+        </h1>
+        <p class="text-muted small mb-0">Single Source of Truth (SSOT) defining supported HTML tags, nesting rules, and allowed attribute schemas.</p>
+      </div>
+      <div class="d-flex gap-2 flex-wrap">
+        <a href="../summary/index.html" class="btn btn-warning text-dark btn-sm fw-semibold">
+          <i class="bi bi-cloud-arrow-up me-1"></i> Upload JSON Spec
+        </a>
+        <a href="./individualTags/index.html" class="btn btn-primary btn-sm">
+          <i class="bi bi-folder2-open me-1"></i> Individual Tags
+        </a>
+        <a href="./tags.json" target="_blank" class="btn btn-outline-primary btn-sm">
+          <i class="bi bi-file-earmark-code me-1"></i> View Raw tags.json
+        </a>
+        <button class="btn btn-outline-secondary btn-sm" id="btnCopyCdn">
+          <i class="bi bi-link-45deg me-1"></i> Copy CDN URL
+        </button>
+      </div>
+    </div>
+
+    <!-- Catalog Metrics Summary -->
+    <div class="row g-3 mb-4">
+      <div class="col-6 col-md-3">
+        <div class="metric-card">
+          <div class="metric-val" id="statTotalTags">0</div>
+          <div class="metric-lbl">Total Catalog Tags</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="metric-card">
+          <div class="metric-val text-success" id="statAllowsChildren">0</div>
+          <div class="metric-lbl">Allows Children</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="metric-card">
+          <div class="metric-val text-info" id="statAllowsText">0</div>
+          <div class="metric-lbl">Allows textContent</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="metric-card">
+          <div class="metric-val text-warning" id="statVoidLeaf">0</div>
+          <div class="metric-lbl">Void / Leaf Tags</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search & Filter Controls -->
+    <div class="card shadow-sm border-0 mb-4">
+      <div class="card-body p-3">
+        <div class="row g-2 align-items-center mb-2">
+          <div class="col-md-7">
+            <div class="input-group input-group-sm">
+              <span class="input-group-text bg-light"><i class="bi bi-search"></i></span>
+              <input type="text" id="inputSearch" class="form-control" placeholder="Search by tag name or attribute (e.g. table, input, col, span)..." />
+            </div>
+          </div>
+          <div class="col-md-5 d-flex justify-content-md-end gap-2 align-items-center">
+            <span class="small text-muted fw-semibold">View:</span>
+            <div class="btn-group btn-group-sm" role="group">
+              <button type="button" class="btn btn-primary view-btn active" id="btnViewCards">
+                <i class="bi bi-grid me-1"></i> Cards
+              </button>
+              <button type="button" class="btn btn-outline-secondary view-btn" id="btnViewTable">
+                <i class="bi bi-table me-1"></i> Table Matrix
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter Chips -->
+        <div class="d-flex gap-1 flex-wrap pt-2 border-top">
+          <button class="btn btn-sm btn-primary filter-chip active" data-filter="all">All (<span id="chipAllCount">0</span>)</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="table">Tables (<span id="chipTableCount">0</span>)</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="form">Forms &amp; Inputs (<span id="chipFormCount">0</span>)</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="typography">Typography (<span id="chipTypoCount">0</span>)</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="children">Containers</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="leaf">Void/Leaf</button>
+          <button class="btn btn-sm btn-outline-secondary filter-chip" data-filter="text">With Text</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tags Display Section -->
+    <div class="mb-4">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span class="fw-bold small text-uppercase text-secondary">
+          Displaying <span id="displayCount">0</span> tag definitions:
+        </span>
+      </div>
+
+      <!-- Mode 1: Cards View Container -->
+      <div id="cardsViewContainer"></div>
+
+      <!-- Mode 2: Table Matrix Container -->
+      <div id="tableViewContainer" class="card shadow-sm border-0 mb-4" style="display: none;">
+        <div class="table-responsive">
+          <table class="table table-hover table-spec mb-0">
+            <thead>
+              <tr>
+                <th style="width: 140px;">Tag</th>
+                <th style="width: 120px;">Category</th>
+                <th style="width: 90px;">Children</th>
+                <th style="width: 90px;">Text</th>
+                <th>Allowed Attributes</th>
+                <th style="width: 180px;">Permitted Child Tags</th>
+              </tr>
+            </thead>
+            <tbody id="tableRowsContainer"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Raw JSON Inspector -->
+    <div class="card shadow-sm border-0 mb-4">
+      <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+        <h2 class="h6 fw-bold mb-0 text-uppercase text-secondary">
+          <i class="bi bi-code-square me-1"></i> Raw <code>tags.json</code> Source
+        </h2>
+        <button class="btn btn-sm btn-outline-secondary" id="btnCopyJson">
+          <i class="bi bi-clipboard me-1"></i> Copy JSON
+        </button>
+      </div>
+      <div class="card-body p-3">
+        <pre class="code-dump mb-0"><code id="rawTagsCode">Loading tags.json...</code></pre>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-muted small py-4 border-top">
+      <p class="mb-0">
+        Powered by <strong>@keshavsoft/json-to-tag</strong> • 
+        <a href="../index.html" class="text-secondary text-decoration-none">Home</a> • 
+        <a href="../summary/index.html" class="text-secondary text-decoration-none">Upload JSON (Review)</a> • 
+        <a href="../playground/index.html" class="text-secondary text-decoration-none">Playground</a> • 
+        <a href="https://github.com/keshavsoft/json-to-tag" class="text-secondary text-decoration-none">GitHub</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Modular JavaScript Entry Point -->
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>

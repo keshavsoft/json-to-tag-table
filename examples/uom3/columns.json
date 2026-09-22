@@ -1,12 +1,36 @@
 [
     {
-        "key": "@_NAME",
-        "label": "@_NAME",
+        "key": "DATE",
+        "label": "DATE",
         "type": "string"
     },
     {
-        "key": "BASEUNITS",
-        "label": "BASEUNITS",
+        "key": "VOUCHERNUMBER",
+        "label": "VOUCHERNUMBER",
         "type": "string"
+    },
+    {
+        "key": "ALLINVENTORYENTRIES.LIST",
+        "label": "ALLINVENTORYENTRIES.LIST",
+        "type": "array",
+        "innerTable": {
+            "columns": [
+                {
+                    "key": "STOCKITEMNAME",
+                    "label": "STOCKITEMNAME",
+                    "type": "string"
+                },
+                {
+                    "key": "RATE",
+                    "label": "RATE",
+                    "type": "string"
+                },
+                {
+                    "key": "AMOUNT",
+                    "label": "AMOUNT",
+                    "type": "number"
+                }
+            ]
+        }
     }
 ]

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TagsCatalogSchema",
+  "description": "JSON Schema for @keshavsoft/json-to-tag tags.json catalog",
+  "type": "object",
+  "patternProperties": {
+    "^[a-z0-9]+$": {
+      "type": "object",
+      "required": [
+        "allowsTextContent",
+        "allowsChildren",
+        "allowedAttributes"
+      ],
+      "properties": {
+        "allowsTextContent": {
+          "type": "boolean",
+          "description": "Indicates whether the element permits direct textContent"
+        },
+        "allowsChildren": {
+          "type": "boolean",
+          "description": "Indicates whether the element can contain child DOM elements"
+        },
+        "allowedAttributes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of specifically allowed HTML attributes for this tag"
+        },
+        "childTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Permitted child tag names if restricted"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

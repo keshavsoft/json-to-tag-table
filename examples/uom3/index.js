@@ -1,7 +1,7 @@
 import columns from "./columns.json" with { type: "json" };
 import configJson from "./config.json" with { type: "json" };
 
-import { Table } from "../../src/v6/index.js";
+import { Table } from "../../src/v7/index.js";
 
 // const { Table } = await import("https://keshavsoft.github.io/json-to-tag-table/dist/v4/min.js");
 
@@ -28,7 +28,7 @@ const startFunc = async () => {
     console.log("------table   --- : ", table);
     table.methods.render({
         targetHtmlId: "table-container",
-        inSkeletonType: "cardWithHeader"
+        inSkeletonType: "tableOnly"
     });
 
     // console.log("------table--- : ", k1, data, table.methods);
