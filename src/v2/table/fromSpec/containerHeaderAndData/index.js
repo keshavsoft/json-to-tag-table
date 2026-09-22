@@ -1,4 +1,4 @@
-import buildSpecElement from "../../../../jsonToSpec/index.js";
+import buildSpecElement from "../../../../skeletonToSpec/v2/index.js";
 import compile from "../../../../../node_modules/json-to-spec/index.js";
 import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
 
