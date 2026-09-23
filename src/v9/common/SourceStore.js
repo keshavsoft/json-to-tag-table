@@ -1,15 +1,29 @@
+import { deriveColumnsFromData } from "./deriveColumnsFromData.js";
+import { defaultConfig } from "../config/index.js";
+
 const buildSource = ({ inData = [], inColumns = [], inConfig = {}, inTopN } = {}) => {
     const localData = inData;
     const localColumns = inColumns;
     const localConfig = inConfig;
     const localTopN = inTopN;
 
+    const originalData = Array.isArray(localData)
+        ? (typeof structuredClone === "function" ? structuredClone(localData) : JSON.parse(JSON.stringify(localData)))
+        : [];
+
+    const columns = (Array.isArray(localColumns) && localColumns.length > 0)
+        ? localColumns
+        : deriveColumnsFromData({ inData: originalData });
+
+    const config = {
+        ...defaultConfig,
+        ...localConfig
+    };
+
     return {
-        originalData: Array.isArray(localData)
-            ? (typeof structuredClone === "function" ? structuredClone(localData) : JSON.parse(JSON.stringify(localData)))
-            : [],
-        columns: Array.isArray(localColumns) ? localColumns : [],
-        config: localConfig || {},
+        originalData,
+        columns,
+        config,
         topN: localTopN
     };
 };

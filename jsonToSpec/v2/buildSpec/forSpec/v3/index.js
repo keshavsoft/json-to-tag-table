@@ -75,7 +75,7 @@ const startFunc = ({ inSpecJson, inData, inShowLog }) => {
                     tagName: "button",
                     textContent: inData.value.length
                 });
-                console.log("ifArray : ", inSpecJson, ifArray);
+                delete newSpec.textContent;
             } else if (typeof inData.value === "object" && inData.value !== null && inData.value.tagName) {
                 newSpec.children = [ inData.value ];
                 delete newSpec.textContent;

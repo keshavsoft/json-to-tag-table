@@ -54,6 +54,10 @@ const startFunc = ({
         const rawSkeleton = skeletonJson[localSkeletonType] ?? skeletonJson.default ?? skeletonJson;
         const targetSkeleton = structuredClone(rawSkeleton);
 
+        if (!Array.isArray(localFooterData) || localFooterData.length === 0) {
+            removeSlot({ inNode: targetSkeleton, inSlotName: "tfoot" });
+        }
+
         const structureJson = skeletonToSpec({
             inSkeleton: targetSkeleton,
             inFragments: fragmentsJson
