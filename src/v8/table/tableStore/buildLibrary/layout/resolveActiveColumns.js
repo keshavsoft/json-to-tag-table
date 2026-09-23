@@ -1,16 +1,14 @@
-const resolveActiveColumns = ({ inSource = {}, inResolveColumns } = {}) => {
-    const localSource = inSource;
+const resolveActiveColumns = ({ inColumnsCatalog = {}, inColumnKeys, inResolveColumns, inShowLog = true } = {}) => {
     const localResolveColumns = inResolveColumns;
 
     if (typeof localResolveColumns === "function") {
         return localResolveColumns({
-            inColumnsCatalog: localSource?.columns,
-            inColumnKeys: localSource?.config?.head?.columns
+            inColumnsCatalog,
+            inColumnKeys
         });
     }
 
     return localSource?.columns || [];
 };
 
-export { resolveActiveColumns };
 export default resolveActiveColumns;

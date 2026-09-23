@@ -1,12 +1,13 @@
 import { buildColGroup } from "./buildColGroup.js";
-import { resolveActiveColumns } from "./resolveActiveColumns.js";
+import resolveActiveColumns from "./resolveActiveColumns.js";
 
 const buildLayout = ({ inSource = {}, inResolveColumns } = {}) => {
     const localSource = inSource;
     const localResolveColumns = inResolveColumns;
 
     const activeColumns = resolveActiveColumns({
-        inSource: localSource,
+        inColumnsCatalog: localSource?.columns,
+        inColumnKeys: localSource?.config?.head?.columns,
         inResolveColumns: localResolveColumns
     });
 

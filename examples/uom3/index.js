@@ -1,7 +1,7 @@
 import columns from "./columns.json" with { type: "json" };
 import configJson from "./config.json" with { type: "json" };
 
-import { Table } from "../../src/v7/index.js";
+import { Table } from "../../src/index.js";
 
 // const { Table } = await import("https://keshavsoft.github.io/json-to-tag-table/dist/v4/min.js");
 
