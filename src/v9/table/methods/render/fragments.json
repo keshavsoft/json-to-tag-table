@@ -43,6 +43,9 @@
             "source": "data",
             "template": {
                 "tagName": "tr",
+                "attributes": {
+                    "class": "trrrrr"
+                },
                 "jsonToSpec": {
                     "operation": "loopObject",
                     "source": "data",

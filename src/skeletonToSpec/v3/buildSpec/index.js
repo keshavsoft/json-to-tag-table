@@ -8,11 +8,11 @@ import buildSpecArray from "./buildSpecArray.js";
 
 const dispatchSpec = ({
     inSpecJson,
-    inFragments
+    inFragments, inShowLog = false
 } = {}) => {
     const localSpecJson = inSpecJson;
     const localFragments = inFragments;
-
+    if (inShowLog) console.log("dispatchSpec : ", localSpecJson, localFragments);
     if (isNullOrUndefined({ inSpec: localSpecJson })) {
         return null;
     };

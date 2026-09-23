@@ -10,9 +10,6 @@ const startFunc = ({ inTemplate, inDataAsArray }) => {
     };
 
     const childrenArray = localDataAsArray.map(element => {
-
-        // console.log("OUTER forArray element:", element);
-
         const newTemplate = structuredClone(localTemplate);
 
         return dispatchSpec({

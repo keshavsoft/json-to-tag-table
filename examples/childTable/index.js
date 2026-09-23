@@ -20,10 +20,10 @@ const startFunc = async () => {
     console.log("------table   --- : ", table);
     table.methods.render({
         targetHtmlId: "table-container",
-        inSkeletonType: "tableOnly"
+        inSkeletonType: "tableSimple"
     });
 
-    showChildTable({ targetHtmlId: "childTableContainer", inData: data[0]["ALLINVENTORYENTRIES.LIST"] });
+    // showChildTable({ targetHtmlId: "childTableContainer", inData: data[0]["ALLINVENTORYENTRIES.LIST"] });
     // console.log("------table--- : ", k1, data, table.methods);
 };
 

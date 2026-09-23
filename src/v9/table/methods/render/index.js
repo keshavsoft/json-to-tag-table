@@ -32,7 +32,8 @@ const startFunc = ({
     inColGroup,
     inFooterData = [],
     inConfig = {},
-    inSkeletonType = "default"
+    inSkeletonType = "default",
+    inShowLog = false
 } = {}) => {
     const localTargetHtmlId = inTargetHtmlId ?? targetHtmlId;
     const localColumns = inColumns;
@@ -54,9 +55,7 @@ const startFunc = ({
         const rawSkeleton = skeletonJson[localSkeletonType] ?? skeletonJson.default ?? skeletonJson;
         const targetSkeleton = structuredClone(rawSkeleton);
 
-        if (!Array.isArray(localFooterData) || localFooterData.length === 0) {
-            removeSlot({ inNode: targetSkeleton, inSlotName: "tfoot" });
-        }
+        if (inShowLog) console.log("targetSkeleton : ", targetSkeleton);
 
         const structureJson = skeletonToSpec({
             inSkeleton: targetSkeleton,
