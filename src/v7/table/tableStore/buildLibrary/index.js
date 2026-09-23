@@ -1,78 +1,40 @@
-import { cloneData } from "../../../common/cloneData.js";
-import { insertSerial } from "./serial/insertSerial.js";
-import { calculateFooter } from "./footer/calculateFooter.js";
-import { formatFooter } from "./footer/formatFooter.js";
-import { buildInputRow } from "./footer/buildInputRow.js";
-
-const buildColGroup = ({ inColGroup = [] } = {}) => {
-    const localColGroup = inColGroup;
-    if (!Array.isArray(localColGroup)) return [];
-
-    const colGroup = localColGroup.map(element => {
-        let newElement = { ...element };
-        if ("width" in element) {
-            newElement.style = `width: ${element.width}`;
-        };
-        return newElement;
-    });
-
-    return colGroup;
-};
+import { buildLayout } from "./layout/index.js";
+import { buildRows } from "./rows/index.js";
+import { buildFooter } from "./footer/index.js";
 
 const buildLibrary = ({ inSource = {}, inResolveColumns } = {}) => {
     const localSource = inSource;
     const localResolveColumns = inResolveColumns;
+    let footer;
 
-    const activeColumns = typeof localResolveColumns === "function"
-        ? localResolveColumns({
-            inColumnsCatalog: localSource?.columns,
-            inColumnKeys: localSource?.config?.head?.columns
-        })
-        : (localSource?.columns || []);
+    // Chapter 1: Prepare Table Layout (Columns & Widths)
+    const layout = buildLayout({
+        inSource: localSource,
+        inResolveColumns: localResolveColumns
+    });
 
-    const colGroup = buildColGroup({ inColGroup: localSource?.config?.colgroup });
-
-    const stateData = cloneData({
+    // Chapter 2: Prepare Table Rows & Alterations (Data & Serial)
+    const rows = buildRows({
         inData: localSource?.originalData,
-        inActiveColumns: activeColumns
+        inLayout: layout,
+        inConfig: localSource?.config
     });
 
-    const serialResult = insertSerial({
-        inColumns: activeColumns,
-        inData: stateData,
-        inConfig: localSource?.config,
-        inColGroup: colGroup
-    });
-
-    const computedFooter = calculateFooter({
-        inData: serialResult.data,
-        inFooterConfig: localSource?.config?.foot
-    });
-
-    const footerData = formatFooter({
-        inComputedFooter: computedFooter,
-        inActiveColumns: serialResult.columns
-    });
-
-    const inputRowConfig = Array.isArray(localSource?.config?.foot)
-        ? localSource.config.foot.find(row => row.type === "input")
-        : null;
-
-    const inputRow = inputRowConfig
-        ? buildInputRow({
-            inColumns: serialResult.columns,
-            inInputConfig: inputRowConfig
-        })
-        : null;
+    // Chapter 3: Prepare Table Footer (Aggregates & Input Row)
+    // footer = buildFooter({
+    //     inData: rows.stateData,
+    //     inColumns: rows.columns,
+    //     inFooterConfig: localSource?.config?.foot
+    // });
 
     return {
-        activeColumns: serialResult.columns,
-        stateData: serialResult.data,
-        computedFooter,
-        footerData,
-        inputRow,
-        isSerialEnabled: serialResult.isSerialEnabled,
-        colGroup: serialResult.colGroup
+        activeColumns: rows.columns,
+        stateData: rows.stateData,
+        colGroup: rows.colGroup,
+        isSerialEnabled: rows.isSerialEnabled,
+        computedFooter: footer?.computedFooter,
+        footerData: footer?.footerData,
+        inputRow: footer?.inputRow
     };
 };
 

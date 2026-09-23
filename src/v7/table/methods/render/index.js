@@ -69,28 +69,29 @@ const startFunc = ({
         });
 
         const specAsJsonToDom = jsonToSpec({ specJson: structureJson, dataJson: dataAsJson, showLog: false });
+        console.log("hasInputRow--- : ", hasInputRow);
+        // if (hasInputRow) {
+        //     const findTfoot = (node) => {
+        //         if (!node || typeof node !== "object") return null;
+        //         if (node.tagName === "tfoot") return node;
+        //         if (Array.isArray(node.children)) {
+        //             for (const child of node.children) {
+        //                 const found = findTfoot(child);
+        //                 if (found) return found;
+        //             }
+        //         }
+        //         return null;
+        //     };
 
-        if (hasInputRow) {
-            const findTfoot = (node) => {
-                if (!node || typeof node !== "object") return null;
-                if (node.tagName === "tfoot") return node;
-                if (Array.isArray(node.children)) {
-                    for (const child of node.children) {
-                        const found = findTfoot(child);
-                        if (found) return found;
-                    }
-                }
-                return null;
-            };
+        //     const tfootNode = findTfoot(specAsJsonToDom);
 
-            const tfootNode = findTfoot(specAsJsonToDom);
-            if (tfootNode) {
-                if (!Array.isArray(tfootNode.children)) {
-                    tfootNode.children = [];
-                }
-                tfootNode.children.unshift(localInputRow);
-            }
-        };
+        //     if (tfootNode) {
+        //         if (!Array.isArray(tfootNode.children)) {
+        //             tfootNode.children = [];
+        //         }
+        //         tfootNode.children.unshift(localInputRow);
+        //     };
+        // };
         console.log("specAsJsonToDom--- : ", specAsJsonToDom);
 
         const fromRenderer = jsonToTag(specAsJsonToDom);

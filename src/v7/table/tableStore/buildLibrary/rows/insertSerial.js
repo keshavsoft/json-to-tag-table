@@ -56,11 +56,6 @@ const insertSerial = ({ inColumns = [], inData = [], inConfig = {},
         ...(row || {})
     }));
 
-    // const colGroupForSerial = {
-    //     "key": "#",
-    //     "width": "5%"
-    // };
-
     return {
         columns: updatedColumns,
         data: updatedData,

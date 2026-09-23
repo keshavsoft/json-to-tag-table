@@ -73,7 +73,7 @@ const startFunc = ({ inSpecJson, inData, inShowLog }) => {
                 newSpec.children = [];
                 newSpec.children.push({
                     tagName: "button",
-                    textContent: "array"
+                    textContent: inData.value.length
                 });
                 console.log("ifArray : ", inSpecJson, ifArray);
             } else {
