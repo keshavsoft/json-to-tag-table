@@ -4,6 +4,7 @@ const startFunc = ({ inTemplate, inDataAsObject }) => {
 
     const localDataAsObject = inDataAsObject;
     const localTemplate = inTemplate;
+    // console.log("localDataAsObject : ", inTemplate, localDataAsObject);
 
     if (
         localDataAsObject === null ||
@@ -16,13 +17,6 @@ const startFunc = ({ inTemplate, inDataAsObject }) => {
 
     for (const [key, value] of Object.entries(localDataAsObject)) {
 
-        // console.log(
-        //     "INNER:",
-        //     key,
-        //     value,
-        //     typeof value
-        // );
-
         const newTemplate = structuredClone(localTemplate);
 
         const createdElement = dispatchSpec({
@@ -32,11 +26,6 @@ const startFunc = ({ inTemplate, inDataAsObject }) => {
                 value
             }
         });
-
-        // console.log(
-        //     "INNER createdElement:",
-        //     createdElement
-        // );
 
         childrenArray.push(createdElement);
     };

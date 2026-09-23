@@ -2,7 +2,7 @@ import registerGlobal from "./registerGlobal.js";
 import buildSpec from "./buildSpec/index.js";
 
 const buildSpecElement = ({ specJson,
-    showLog, dataJson }) => {
+    showLog = false, dataJson }) => {
     try {
         if (showLog) console.log("jsonToSpec 1 : ", specJson);
 

@@ -1,7 +1,7 @@
 import dispatchSpec from "./index.js";
 
 export const buildSpecArray = ({ inArray = [], inFragments,
-    inShowLog = true
+    inShowLog = false
 } = {}) => {
     const localArray = inArray;
     const localFragments = inFragments;

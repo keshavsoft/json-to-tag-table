@@ -1,6 +1,7 @@
 import resolveTemplate from "./resolveTemplate.js";
 import { isSpecArray } from "../../guards.js";
 import { handleObjectData } from "./handleObjectData.js";
+import handleCellData from "./handleCellData.js";
 
 // Case 1: Raw string substitution into ${}
 const handleStringData = ({ inSpec, inData }) => {
@@ -30,26 +31,27 @@ const handleStringData = ({ inSpec, inData }) => {
 };
 
 // Case 2: Cell ({ key, value }) resolution
-const handleCellData = ({ inSpec, inData }) => {
+const handleCellData1 = ({ inSpec, inData }) => {
     const localSpec = inSpec;
     const localData = inData;
     const localValue = localData.value;
+    console.log('inSpec : ', inSpec);
 
     if (isSpecArray({ inSpecJson: localValue })) {
         localSpec.children = [{ tagName: "button", textContent: localValue.length }];
         delete localSpec.textContent;
         return localSpec;
-    }
+    };
 
     if (typeof localValue === "object" && localValue !== null && localValue.tagName) {
         localSpec.children = [localValue];
         delete localSpec.textContent;
         return localSpec;
-    }
+    };
 
     if ("textContent" in localSpec) {
         localSpec.textContent = resolveTemplate({ inTemplate: localSpec.textContent, inData: localData });
-    }
+    };
 
     return localSpec;
 };
