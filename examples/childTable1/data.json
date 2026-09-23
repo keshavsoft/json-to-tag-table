@@ -1,0 +1,13 @@
+[
+  {
+    "DATE": "20260401",
+    "VOUCHERNUMBER": 1,
+    "ALLINVENTORYENTRIES.LIST": [
+      {
+        "STOCKITEMNAME": "Shading Net Kgs",
+        "RATE": "280.90/kgs",
+        "AMOUNT": 1280.9
+      }
+    ]
+  }
+]
