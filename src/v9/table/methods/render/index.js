@@ -4,7 +4,7 @@ import skeletonToSpec from "../../../../skeletonToSpec/v3/index.js";
 // import jsonToTag from "../../../../../node_modules/@keshavsoft/json-to-tag/index.js";
 
 import jsonToSpec from "../../../../../jsonToSpec/v2/index.js";
-import jsonToTag from "../../../../../jsonToTag/v1/index.js";
+import jsonToTag from "../../../../../jsonToTag/v2/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};
@@ -61,9 +61,9 @@ const startFunc = ({
             inSkeleton: targetSkeleton,
             inFragments: fragmentsJson
         });
-
+        if (inShowLog) console.log("structureJson : ", structureJson);
         const specAsJsonToDom = jsonToSpec({ specJson: structureJson, dataJson: dataAsJson, showLog: false });
-        console.log("specAsJsonToDom--- : ", specAsJsonToDom);
+        if (inShowLog) console.log("specAsJsonToDom : ", specAsJsonToDom);
 
         const fromRenderer = jsonToTag(specAsJsonToDom);
 

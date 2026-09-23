@@ -1,33 +1,6 @@
-import buildSpec from "../../index.js";
+import resolveTemplate from "./resolveTemplate.js";
 import { isSpecArray } from "../../guards.js";
-
-const resolveTemplate = ({ inTemplate, inData }) => {
-    const localTemplate = inTemplate;
-    const localData = inData;
-
-    if (typeof localTemplate !== "string") return localTemplate;
-
-    return localTemplate.replace(/\$\{([^}]+)\}/g, (_, inPath) => {
-        const localKeys = inPath.trim().split(".");
-        let localValue = localData;
-
-        for (const key of localKeys) {
-            if (localValue === null || localValue === undefined) return "";
-            localValue = localValue[key];
-        }
-
-        if (
-            localValue === null ||
-            typeof localValue === "string" ||
-            typeof localValue === "number" ||
-            typeof localValue === "boolean"
-        ) {
-            return String(localValue ?? "");
-        }
-
-        return localValue;
-    });
-};
+import { handleObjectData } from "./handleObjectData.js";
 
 // Case 1: Raw string substitution into ${}
 const handleStringData = ({ inSpec, inData }) => {
@@ -77,38 +50,6 @@ const handleCellData = ({ inSpec, inData }) => {
     if ("textContent" in localSpec) {
         localSpec.textContent = resolveTemplate({ inTemplate: localSpec.textContent, inData: localData });
     }
-
-    return localSpec;
-};
-
-// Case 3: Object or row resolution
-const handleObjectData = ({ inSpec, inData, inShowLog }) => {
-    const localSpec = inSpec;
-    const localData = inData;
-    const localShowLog = inShowLog;
-
-    if ("textContent" in localSpec) {
-        localSpec.textContent = resolveTemplate({ inTemplate: localSpec.textContent, inData: localData });
-    }
-
-    if ("attributes" in localSpec && typeof localSpec.attributes === "object" && localSpec.attributes) {
-        localSpec.attributes = Object.fromEntries(
-            Object.entries(localSpec.attributes).map(([key, val]) => [
-                key,
-                resolveTemplate({ inTemplate: val, inData: localData })
-            ])
-        );
-    };
-
-    if (Array.isArray(localSpec.children)) {
-        localSpec.children = localSpec.children.map(child =>
-            buildSpec({
-                inSpecJson: child,
-                inShowLog: localShowLog,
-                inDataJson: localData
-            })
-        );
-    };
 
     return localSpec;
 };

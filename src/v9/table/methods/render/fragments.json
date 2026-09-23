@@ -51,6 +51,7 @@
                     "source": "data",
                     "template": {
                         "tagName": "td",
+                        "class": "tdddddd ${value}",
                         "textContent": "${value}"
                     }
                 },
