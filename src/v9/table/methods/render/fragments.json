@@ -43,10 +43,6 @@
             "source": "data",
             "template": {
                 "tagName": "tr",
-                "attributes": {
-                    "data": "row-#{index}",
-                    "class": "trrrrr"
-                },
                 "jsonToSpec": {
                     "operation": "loopObject",
                     "source": "data",

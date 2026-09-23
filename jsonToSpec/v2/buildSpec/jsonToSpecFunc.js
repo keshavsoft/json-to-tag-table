@@ -10,8 +10,10 @@ const startFunc = ({
 } = {}) => {
     if (Number.isFinite(inRowIndex)) {
         if ("attributes" in inSpecJson) {
-            if ("data" in inSpecJson?.attributes) {
-                inSpecJson.attributes.rowIndex = inRowIndex;
+            inSpecJson.attributes.rowIndex = inRowIndex;
+        } else {
+            inSpecJson.attributes = {
+                rowIndex: inRowIndex
             };
         };
     };
