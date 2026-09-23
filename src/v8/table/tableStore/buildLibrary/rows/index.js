@@ -1,5 +1,5 @@
 import { cloneData } from "../../../../common/cloneData.js";
-import { insertSerial } from "./insertSerial.js";
+import insertSerial from "./insertSerial.js";
 
 const buildRows = ({ inData = [], inLayout = {}, inConfig = {} } = {}) => {
     const localData = inData;

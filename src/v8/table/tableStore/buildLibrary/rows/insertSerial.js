@@ -1,18 +1,12 @@
 const insertSerial = ({ inColumns = [], inData = [], inConfig = {},
-    inLabel, inColGroup } = {}) => {
+    inColGroup } = {}) => {
     const localColumns = inColumns;
     const localData = inData;
     const localConfig = inConfig;
-    const localLabel = inLabel;
     const localColGroup = inColGroup;
+    // console.log("aaaaaaaa : ", localConfig.serial);
 
-    const isSerialEnabled = Boolean(
-        localConfig?.serial ||
-        localConfig?.table?.serial ||
-        localConfig?.head?.serial
-    );
-
-    if (!isSerialEnabled) {
+    if (!localConfig?.serial) {
         return {
             columns: localColumns,
             data: localData,
@@ -21,24 +15,14 @@ const insertSerial = ({ inColumns = [], inData = [], inConfig = {},
         };
     };
 
-    const resolvedLabel = localLabel || (
-        typeof localConfig?.serial === "object"
-            ? (localConfig.serial.label || "#")
-            : "#"
-    );
-
-    const serialWidth = typeof localConfig?.serial === "object" && localConfig.serial.width
-        ? localConfig.serial.width
-        : "50px";
-
     const serialStyle = typeof localConfig?.serial === "object" && localConfig.serial.style
         ? localConfig.serial.style
-        : `width: ${serialWidth};`;
+        : `width: 50px;`;
 
     const serialCol = {
         key: "serial",
-        label: resolvedLabel,
-        width: serialWidth,
+        label: "#",
+        width: "50px",
         style: serialStyle
     };
 
@@ -64,5 +48,4 @@ const insertSerial = ({ inColumns = [], inData = [], inConfig = {},
     };
 };
 
-export { insertSerial };
 export default insertSerial;
