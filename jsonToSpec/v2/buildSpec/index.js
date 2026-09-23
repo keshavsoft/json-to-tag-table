@@ -14,7 +14,7 @@ const dispatchSpec = ({
     inShowLog = false,
     inDataJson
 } = {}) => {
-    console.log("inDataJson 1 : ", inDataJson);
+    // console.log("inDataJson 1 : ", inDataJson);
     // if (inShowLog) console.log("dispatchSpec 1 : ", inSpecJson);
     if (isNullOrUndefined({ inSpec: inSpecJson })) {
         return null;

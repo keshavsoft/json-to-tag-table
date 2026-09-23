@@ -70,7 +70,12 @@ const startFunc = ({ inSpecJson, inData, inShowLog }) => {
             const ifArray = isSpecArray({ inSpecJson: inData.value });
             // console.log("ifArray : ", inData, ifArray);
             if (ifArray) {
-                console.log("ifArray : ", ifArray);
+                newSpec.children = [];
+                newSpec.children.push({
+                    tagName: "button",
+                    textContent: "array"
+                });
+                console.log("ifArray : ", inSpecJson, ifArray);
             } else {
 
                 if ("textContent" in newSpec) {
