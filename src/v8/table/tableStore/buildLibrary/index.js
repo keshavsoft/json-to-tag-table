@@ -8,8 +8,10 @@ const buildLibrary = ({ inSource = {}, inResolveColumns } = {}) => {
 
     // Chapter 1: Prepare Table Layout (Columns & Widths)
     const layout = buildLayout({
-        inSource: localSource,
-        inResolveColumns: localResolveColumns
+        inResolveColumns: localResolveColumns,
+        inColumnsCatalog: localSource?.columns,
+        inColumnKeys: localSource?.config?.head?.columns,
+        inColGroup: localSource?.config?.colgroup
     });
 
     // Chapter 2: Prepare Table Rows & Alterations (Data & Serial)

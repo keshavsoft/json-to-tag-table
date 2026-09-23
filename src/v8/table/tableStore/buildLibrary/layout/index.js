@@ -1,18 +1,19 @@
 import { buildColGroup } from "./buildColGroup.js";
 import resolveActiveColumns from "./resolveActiveColumns.js";
 
-const buildLayout = ({ inSource = {}, inResolveColumns } = {}) => {
-    const localSource = inSource;
+const buildLayout = ({ inColumnsCatalog, inColumnKeys,
+    inColGroup, inResolveColumns } = {}) => {
+
     const localResolveColumns = inResolveColumns;
 
     const activeColumns = resolveActiveColumns({
-        inColumnsCatalog: localSource?.columns,
-        inColumnKeys: localSource?.config?.head?.columns,
+        inColumnsCatalog: inColumnsCatalog,
+        inColumnKeys: inColumnKeys,
         inResolveColumns: localResolveColumns
     });
 
     const colGroup = buildColGroup({
-        inColGroup: localSource?.config?.colgroup
+        inColGroup
     });
 
     return {

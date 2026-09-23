@@ -1,4 +1,4 @@
-const resolveActiveColumns = ({ inColumnsCatalog = {}, inColumnKeys, inResolveColumns, inShowLog = true } = {}) => {
+const resolveActiveColumns = ({ inColumnsCatalog, inColumnKeys, inResolveColumns, inShowLog = true } = {}) => {
     const localResolveColumns = inResolveColumns;
 
     if (typeof localResolveColumns === "function") {
