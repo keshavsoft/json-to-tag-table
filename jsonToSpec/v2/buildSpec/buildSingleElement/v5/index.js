@@ -1,5 +1,3 @@
-import resolveTemplate from "./resolveTemplate.js";
-import { isSpecArray } from "../../guards.js";
 import { handleObjectData } from "./handleObjectData.js";
 import handleCellData from "./handleCellData.js";
 
@@ -30,33 +28,7 @@ const handleStringData = ({ inSpec, inData }) => {
     return localSpec;
 };
 
-// Case 2: Cell ({ key, value }) resolution
-const handleCellData1 = ({ inSpec, inData }) => {
-    const localSpec = inSpec;
-    const localData = inData;
-    const localValue = localData.value;
-    console.log('inSpec : ', inSpec);
-
-    if (isSpecArray({ inSpecJson: localValue })) {
-        localSpec.children = [{ tagName: "button", textContent: localValue.length }];
-        delete localSpec.textContent;
-        return localSpec;
-    };
-
-    if (typeof localValue === "object" && localValue !== null && localValue.tagName) {
-        localSpec.children = [localValue];
-        delete localSpec.textContent;
-        return localSpec;
-    };
-
-    if ("textContent" in localSpec) {
-        localSpec.textContent = resolveTemplate({ inTemplate: localSpec.textContent, inData: localData });
-    };
-
-    return localSpec;
-};
-
-const startFunc = ({ inSpecJson, inData, inShowLog = false } = {}) => {
+const startFunc = ({ inSpecJson, inData, inRowIndex, inShowLog = false } = {}) => {
     const localSpecJson = inSpecJson;
     const localData = inData;
     const localShowLog = inShowLog;
@@ -67,15 +39,18 @@ const startFunc = ({ inSpecJson, inData, inShowLog = false } = {}) => {
         console.log("buildSingleElement start : ", localSpecJson, localData);
     };
 
+    // console.log("inRowIndex  : ", inRowIndex, localSpecJson, localSpec, localData);
+
     // Case 1: String value
     if (typeof localData === "string") {
         return handleStringData({ inSpec: localSpec, inData: localData });
-    }
+    };
 
     // Case 2: Cell with { key, value }
     if (typeof localData === "object" && localData !== null && "key" in localData && "value" in localData) {
+
         return handleCellData({ inSpec: localSpec, inData: localData });
-    }
+    };
 
     // Case 3: Row or general object
     return handleObjectData({

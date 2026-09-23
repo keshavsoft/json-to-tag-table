@@ -1,8 +1,17 @@
-const startFunc = ({ inTemplate, inData }) => {
-    let fromHash = forHashResolve({ inTemplate, inData });
-    let fromDollar = forDollarResolve({ inTemplate: fromHash, inData });
+const startFunc = ({ inTemplate, inData, inRowIndex }) => {
+    if (Number.isFinite(inRowIndex)) {
+        debugger
+        console.log("vvvvvvvvvvvvvv : ", inRowIndex);
 
-    return fromDollar;
+        let fromHash = forHashResolve({ inTemplate, inRowIndex });
+
+        let fromDollar = forDollarResolve({ inTemplate: fromHash, inData });
+        return fromDollar;
+    } else {
+        let fromDollar = forDollarResolve({ inTemplate, inData });
+
+        return fromDollar;
+    };
 };
 
 const forDollarResolve = ({ inTemplate, inData }) => {
@@ -33,15 +42,15 @@ const forDollarResolve = ({ inTemplate, inData }) => {
     });
 };
 
-const forHashResolve = ({ inTemplate, inData }) => {
+const forHashResolve = ({ inTemplate, inRowIndex }) => {
     const localTemplate = inTemplate;
-    const localData = inData;
-
-    if (typeof localTemplate !== "string") return localTemplate;
+    const localData = inRowIndex;
 
     return localTemplate.replace(/\#\{([^}]+)\}/g, (_, inPath) => {
         const localKeys = inPath.trim().split(".");
         let localValue = localData;
+
+        console.log("aaaaaaa : ", inRowIndex, inTemplate, localKeys);
 
         for (const key of localKeys) {
             if (localValue === null || localValue === undefined) return "";
