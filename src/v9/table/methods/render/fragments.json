@@ -1,0 +1,109 @@
+{
+    "colGroup": {
+        "tagName": "colgroup",
+        "jsonToSpec": {
+            "operation": "loopArray",
+            "source": "colGroup",
+            "template": {
+                "tagName": "col",
+                "attributes": {
+                    "style": "${style}"
+                }
+            }
+        },
+        "children": []
+    },
+    "thead": {
+        "tagName": "thead",
+        "attributes": {
+            "class": "table-dark"
+        },
+        "children": [
+            {
+                "tagName": "tr",
+                "jsonToSpec": {
+                    "operation": "loopArray",
+                    "source": "columns",
+                    "template": {
+                        "tagName": "th",
+                        "textContent": "${label}"
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "tbody": {
+        "tagName": "tbody",
+        "attributes": {
+            "id": "table-body"
+        },
+        "jsonToSpec": {
+            "operation": "loopArray",
+            "source": "data",
+            "template": {
+                "tagName": "tr",
+                "jsonToSpec": {
+                    "operation": "loopObject",
+                    "source": "data",
+                    "template": {
+                        "tagName": "td",
+                        "textContent": "${value}"
+                    }
+                },
+                "children": []
+            }
+        },
+        "children": []
+    },
+    "tfoot": {
+        "tagName": "tfoot",
+        "attributes": {
+            "class": "table-light fw-bold"
+        },
+        "jsonToSpec": {
+            "operation": "loopArray",
+            "source": "foot",
+            "template": {
+                "tagName": "tr",
+                "jsonToSpec": {
+                    "operation": "loopObject",
+                    "source": "foot",
+                    "template": {
+                        "tagName": "td",
+                        "textContent": "${value}"
+                    }
+                },
+                "children": []
+            }
+        },
+        "children": []
+    },
+    "cardHeader": {
+        "tagName": "div",
+        "attributes": {
+            "class": "d-flex justify-content-between align-items-center"
+        },
+        "children": [
+            {
+                "tagName": "h5",
+                "attributes": {
+                    "class": "card-title mb-0"
+                },
+                "textContent": "${title}"
+            }
+        ]
+    },
+    "cardFooter": {
+        "tagName": "div",
+        "attributes": {
+            "class": "d-flex justify-content-between align-items-center text-muted small"
+        },
+        "children": [
+            {
+                "tagName": "span",
+                "textContent": "${footerText}"
+            }
+        ]
+    }
+}
