@@ -22,23 +22,6 @@ const startFunc = async () => {
         targetHtmlId: "table-container",
         inSkeletonType: "tableSimple"
     });
-
-    // showChildTable({ targetHtmlId: "childTableContainer", inData: data[0]["ALLINVENTORYENTRIES.LIST"] });
-    // console.log("------table--- : ", k1, data, table.methods);
-};
-
-const showChildTable = ({ targetHtmlId, inData }) => {
-    const data = inData;
-
-    const table = new Table({
-        theme: "default",
-        data
-    });
-
-    table.methods.render({
-        targetHtmlId,
-        inSkeletonType: "tableOnly"
-    });
 };
 
 startFunc().then();
