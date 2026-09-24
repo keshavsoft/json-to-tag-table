@@ -8,75 +8,7 @@ import jsonToTag from "../../../../../jsonToTag/v2/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};
-import deriveColumnsFromData from "../../../common/deriveColumnsFromData.js";
-
-const clickFunc = ({
-    inEvent,
-    inData,
-    inColumns
-} = {}) => {
-    const localEvent = inEvent;
-    const localData = inData;
-    const localColumns = inColumns;
-
-    const localButton = localEvent.target.closest('button');
-    if (!localButton) return;
-
-    const localCurrentTarget = localEvent.currentTarget;
-    const localClosestIdElement = localButton.closest('[id]');
-    const localTable = localButton.closest('table');
-    const localRow = localButton.closest('tr');
-    const localTd = localButton.closest('td');
-
-    console.log('Hooked element data:', localButton);
-    console.log('Closest element with ID:', localClosestIdElement, 'ID:', localClosestIdElement?.id);
-    console.log('Current target:', localCurrentTarget, 'ID:', localCurrentTarget?.id);
-    console.log('Main table:', localTable);
-
-    if (!localTable || !localRow) return;
-
-    const localRowIndex = localRow.sectionRowIndex;
-    const localRowData = localData?.[localRowIndex];
-    if (!localRowData) return;
-
-    const localCellIndex = localTd?.cellIndex;
-    const localColumnKey = localColumns?.[localCellIndex]?.key;
-
-    const localChildData = (localColumnKey && Array.isArray(localRowData?.[localColumnKey]))
-        ? localRowData[localColumnKey]
-        : Object.values(localRowData).find(val => Array.isArray(val));
-
-    console.log('Resolved childData:', localChildData);
-
-    if (!Array.isArray(localChildData) || localChildData.length === 0) return;
-
-    // Find or create sibling container right next to the main table
-    let siblingContainer = localTable.nextElementSibling;
-    if (!siblingContainer || !siblingContainer.classList.contains('child-table-container')) {
-        siblingContainer = document.createElement('div');
-        siblingContainer.className = 'child-table-container mt-3';
-        const closestId = localClosestIdElement?.id || localCurrentTarget?.id || 'main-table';
-        siblingContainer.id = `${closestId}-child`;
-        localTable.after(siblingContainer);
-    }
-
-    // Toggle off if clicking the same active row
-    if (siblingContainer.dataset.activeRow === String(localRowIndex) && siblingContainer.style.display !== "none") {
-        siblingContainer.style.display = "none";
-        return;
-    }
-
-    siblingContainer.style.display = "";
-    siblingContainer.dataset.activeRow = String(localRowIndex);
-    siblingContainer.innerHTML = "";
-
-    startFunc({
-        inTargetHtmlId: siblingContainer,
-        inColumns: deriveColumnsFromData({ inData: localChildData }),
-        inData: localChildData,
-        inSkeletonType: "tableOnly"
-    });
-};
+import clickFunc from "./click/index.js";
 
 const startFunc = ({
     targetHtmlId,
@@ -131,7 +63,9 @@ const startFunc = ({
             clickFunc({
                 inEvent: event,
                 inData: localData,
-                inColumns: localColumns
+                inColumns: localColumns,
+                inRenderFunc: startFunc,
+                inTargetHtmlId: localTargetHtmlId
             });
         });
 
