@@ -8,7 +8,7 @@ import jsonToTag from "../../../../../jsonToTag/v2/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};
-import clickFunc from "./click/index.js";
+import clickFunc from "./clickFunc/v2/index.js";
 
 const startFunc = ({
     targetHtmlId,
