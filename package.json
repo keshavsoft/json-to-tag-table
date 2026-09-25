@@ -1,6 +1,6 @@
 {
   "name": "json-to-tag-table",
-  "version": "7.1.0",
+  "version": "13.1.0",
   "description": "Standalone, config-driven Table renderer built on top of json-to-dom",
   "type": "module",
   "main": "src/v7/index.js",
