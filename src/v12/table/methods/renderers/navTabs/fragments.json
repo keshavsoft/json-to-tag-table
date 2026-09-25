@@ -1,0 +1,59 @@
+{
+    "navTabsList": {
+        "tagName": "ul",
+        "attributes": {
+            "class": "nav nav-tabs",
+            "role": "tablist"
+        },
+        "jsonToSpec": {
+            "operation": "loopArray",
+            "source": "tabs",
+            "template": {
+                "tagName": "li",
+                "attributes": {
+                    "class": "nav-item",
+                    "role": "presentation"
+                },
+                "children": [
+                    {
+                        "tagName": "button",
+                        "attributes": {
+                            "class": "nav-link ${activeClass}",
+                            "id": "${id}-tab",
+                            "data-bs-toggle": "tab",
+                            "data-bs-target": "#${id}-pane",
+                            "type": "button",
+                            "role": "tab",
+                            "aria-controls": "${id}-pane",
+                            "aria-selected": "${isSelected}"
+                        },
+                        "textContent": "${label}"
+                    }
+                ]
+            }
+        },
+        "children": []
+    },
+    "tabContent": {
+        "tagName": "div",
+        "attributes": {
+            "class": "tab-content pt-3"
+        },
+        "jsonToSpec": {
+            "operation": "loopArray",
+            "source": "tabs",
+            "template": {
+                "tagName": "div",
+                "attributes": {
+                    "class": "tab-pane fade ${showActiveClass}",
+                    "id": "${id}-pane",
+                    "role": "tabpanel",
+                    "aria-labelledby": "${id}-tab",
+                    "tabindex": "0"
+                },
+                "textContent": "${content}"
+            }
+        },
+        "children": []
+    }
+}
