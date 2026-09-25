@@ -1,0 +1,371 @@
+{
+    "tableSimple": {
+        "tagName": "table",
+        "attributes": {
+            "class": "table table-hover table-striped mb-0"
+        },
+        "slots": [
+            "colGroup",
+            "thead",
+            "tbody",
+            "tfoot"
+        ]
+    },
+    "bodyOnly": {
+        "tagName": "table",
+        "attributes": {
+            "class": "table table-hover table-striped mb-0"
+        },
+        "slots": [
+            "tbody"
+        ]
+    },
+    "default": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "tableOnly": {
+        "tagName": "table",
+        "attributes": {
+            "class": "table table-hover table-striped mb-0"
+        },
+        "slots": [
+            "colGroup",
+            "thead",
+            "tbody",
+            "tfoot"
+        ]
+    },
+    "tableResponsive": {
+        "tagName": "div",
+        "attributes": {
+            "class": "table-responsive"
+        },
+        "children": [
+            {
+                "tagName": "table",
+                "attributes": {
+                    "class": "table table-hover table-striped mb-0"
+                },
+                "slots": [
+                    "colGroup",
+                    "thead",
+                    "tbody",
+                    "tfoot"
+                ]
+            }
+        ]
+    },
+    "cardWithHeader": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-header bg-white py-3"
+                },
+                "slots": [
+                    "cardHeader"
+                ]
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "cardWithFooter": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-footer bg-white py-2"
+                },
+                "slots": [
+                    "cardFooter"
+                ]
+            }
+        ]
+    },
+    "cardWithHeaderAndFooter": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-header bg-white py-3"
+                },
+                "slots": [
+                    "cardHeader"
+                ]
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-footer bg-white py-2"
+                },
+                "slots": [
+                    "cardFooter"
+                ]
+            }
+        ]
+    },
+    "bordered": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-bordered table-hover mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "borderless": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-borderless table-hover mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "compact": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-sm table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "dark": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm bg-dark text-white border-secondary"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-dark table-hover mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "striped": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "flush": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card border-0 shadow-none"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "table-responsive"
+                },
+                "children": [
+                    {
+                        "tagName": "table",
+                        "attributes": {
+                            "class": "table table-hover table-striped mb-0"
+                        },
+                        "slots": [
+                            "colGroup",
+                            "thead",
+                            "tbody",
+                            "tfoot"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

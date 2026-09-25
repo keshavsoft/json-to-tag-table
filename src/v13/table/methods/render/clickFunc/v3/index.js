@@ -1,4 +1,4 @@
-import getContainer from "./getContainer.js";
+import getContainer from "./getContainer/index.js";
 import createTable from "./createTable.js";
 
 // Main click handler: only 2 clear steps from the outside
