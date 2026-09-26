@@ -1,0 +1,18 @@
+{
+    "default": {
+        "tagName": "div",
+        "attributes": {
+            "class": "bootstrap-nav-tabs"
+        },
+        "slots": [
+            "navTabsList",
+            "tabContent"
+        ]
+    },
+    "tabsOnly": {
+        "tagName": "div",
+        "slots": [
+            "navTabsList"
+        ]
+    }
+}
