@@ -1,0 +1,11 @@
+{
+  "serial": true,
+  "head": {
+    "columns": [
+      "DATE",
+      "VOUCHERNUMBER",
+      "MASTERID",
+      "ALLINVENTORYENTRIES.LIST"
+    ]
+  }
+}

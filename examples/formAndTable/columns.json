@@ -1,0 +1,18 @@
+[
+  {
+    "key": "DATE",
+    "label": "DATE"
+  },
+  {
+    "key": "VOUCHERNUMBER",
+    "label": "VOUCHERNUMBER"
+  },
+  {
+    "key": "MASTERID",
+    "label": "MASTERID"
+  },
+  {
+    "key": "ALLINVENTORYENTRIES.LIST",
+    "label": "ALLINVENTORYENTRIES.LIST"
+  }
+]
