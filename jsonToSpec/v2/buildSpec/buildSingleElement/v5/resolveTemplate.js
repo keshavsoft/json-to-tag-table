@@ -29,8 +29,11 @@ const forDollarResolve = ({ inTemplate, inData }) => {
             localValue = localValue[key];
         }
 
+        if (localValue === undefined || localValue === null) {
+            return "";
+        }
+
         if (
-            localValue === null ||
             typeof localValue === "string" ||
             typeof localValue === "number" ||
             typeof localValue === "boolean"

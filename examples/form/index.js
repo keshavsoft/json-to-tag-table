@@ -1,4 +1,4 @@
-import renderForm from "../../src/v14/table/methods/renderers/form/index.js";
+import render from "../../src/v14/table/methods/renderers/index.js";
 
 const startFunc = () => {
     const fieldsData = [
@@ -22,10 +22,11 @@ const startFunc = () => {
         }
     ];
 
-    renderForm({
+    render({
+        type: "form",
         targetHtmlId: "form-container",
         inFields: fieldsData,
-        inVariant: "stacked"
+        variant: "stacked"
     });
 };
 

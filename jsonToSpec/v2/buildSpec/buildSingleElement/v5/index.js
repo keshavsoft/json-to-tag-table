@@ -47,7 +47,7 @@ const startFunc = ({ inSpecJson, inData, inRowIndex, inShowLog = false } = {}) =
     };
 
     // Case 2: Cell with { key, value }
-    if (typeof localData === "object" && localData !== null && "key" in localData && "value" in localData) {
+    if (typeof localData === "object" && localData !== null && "key" in localData && "value" in localData && !("children" in localSpec && Array.isArray(localSpec.children) && localSpec.children.length > 0)) {
 
         return handleCellData({ inSpec: localSpec, inData: localData });
     };
