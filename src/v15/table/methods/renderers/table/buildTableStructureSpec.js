@@ -1,4 +1,4 @@
-import skeletonToSpec from "../../../../skeletonToSpec/v3/index.js";
+import skeletonToSpec from "../../../../../skeletonToSpec/v3/index.js";
 
 import skeletonJson from './skeleton.json' with {type: 'json'};
 import fragmentsJson from './fragments.json' with {type: 'json'};

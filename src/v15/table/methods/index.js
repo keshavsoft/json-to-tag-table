@@ -1,4 +1,4 @@
-import renderFunc from "./render/index.js";
+import renderFunc from "./renderers/table/index.js";
 
 const createMethods = ({ inTable } = {}) => {
     const localTable = inTable;

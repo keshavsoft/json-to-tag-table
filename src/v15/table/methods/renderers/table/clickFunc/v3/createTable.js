@@ -1,4 +1,4 @@
-import deriveColumnsFromData from "../../../../../common/deriveColumnsFromData.js";
+import deriveColumnsFromData from "../../../../../../common/deriveColumnsFromData.js";
 
 // Step 2: Create the child table inside the container
 const startFunc = ({ inChildTableContainer, inContainer, inRenderFunc } = {}) => {

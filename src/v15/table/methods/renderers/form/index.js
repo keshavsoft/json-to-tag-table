@@ -1,5 +1,6 @@
 import jsonToSpec from "../../../../../../jsonToSpec/v2/index.js";
 import jsonToTag from "../../../../../../jsonToTag/v2/index.js";
+import attachFormClickEventListener from "./attachFormClickEventListener.js";
 
 import structureJson from './structure.json' with {type: 'json'};
 
@@ -11,7 +12,11 @@ const startFunc = ({
     inColumns = [],
     inVariant = "stacked",
     inSkeletonType,
-    inShowLog = false
+    inShowLog = false,
+    onSave,
+    afterSave,
+    onNew,
+    onClear
 } = {}) => {
     const localTargetHtmlId = inTargetHtmlId ?? targetHtmlId;
     const localVariant = inSkeletonType ?? inVariant;
@@ -57,6 +62,17 @@ const startFunc = ({
         const html = (typeof localTargetHtmlId === "string")
             ? document.getElementById(localTargetHtmlId)
             : localTargetHtmlId;
+
+        const containerToAttach = html || fromRenderer;
+
+        // Attach modular click event listener for Save and New actions
+        attachFormClickEventListener({
+            inTargetContainer: containerToAttach,
+            onSave,
+            afterSave,
+            onNew,
+            onClear
+        });
 
         if (!html) return fromRenderer;
 

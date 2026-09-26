@@ -1,4 +1,4 @@
-import renderTable from "../render/index.js";
+import renderTable from "./table/index.js";
 import renderNavTabs from "./navTabs/index.js";
 import renderForm from "./form/index.js";
 
@@ -38,7 +38,8 @@ const render = ({
     skeletonType,
     inSkeletonType,
     showLog = false,
-    inShowLog
+    inShowLog,
+    ...restProps
 } = {}) => {
     const rawType = inType ?? type;
     const resolvedType = typeof rawType === "string" ? rawType.toLowerCase() : "table";
@@ -67,7 +68,10 @@ const render = ({
             inColumns: localColumns,
             inVariant: localSkeletonType,
             inSkeletonType: localSkeletonType,
-            inShowLog: localShowLog
+            inShowLog: localShowLog,
+            onSave: restProps?.onSave,
+            afterSave: restProps?.afterSave,
+            onNew: restProps?.onNew
         });
     }
 
