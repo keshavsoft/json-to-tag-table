@@ -1,0 +1,205 @@
+[
+  {
+    "DATE": "20260401",
+    "VOUCHERNUMBER": 1,
+    "MASTERID": 174169,
+    "ALLINVENTORYENTRIES.LIST": [
+      {
+        "STOCKITEMNAME": "Shading Net Kgs",
+        "RATE": "280.90/kgs",
+        "AMOUNT": 1280.9,
+        "ACTUALQTY": "4.560 kgs",
+        "BILLEDQTY": "4.560 kgs",
+        "BATCHALLOCATIONS.LIST": [
+          {
+            "MFDON": 20210723,
+            "GODOWNNAME": "Main Location",
+            "BATCHNAME": "Rishi-Rs.205/-",
+            "DESTINATIONGODOWNNAME": "Main Location",
+            "ACTUALQTY": "3.560 kgs",
+            "BILLEDQTY": "3.560 kgs",
+            "AMOUNT": 1000
+          },
+          {
+            "MFDON": 20240509,
+            "GODOWNNAME": "Main Location",
+            "BATCHNAME": "Bahnu-Fortune-Rs.178/-",
+            "DESTINATIONGODOWNNAME": "Main Location",
+            "ACTUALQTY": "1.000 kgs",
+            "BILLEDQTY": "1.000 kgs",
+            "AMOUNT": 280.9
+          }
+        ]
+      },
+      {
+        "STOCKITEMNAME": "ROPE",
+        "RATE": "312.50/kgs",
+        "AMOUNT": 100,
+        "ACTUALQTY": "0.320 kgs",
+        "BILLEDQTY": "0.320 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Tuf-Rs.170",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "0.320 kgs",
+          "BILLEDQTY": "0.320 kgs",
+          "AMOUNT": 100
+        }
+      },
+      {
+        "STOCKITEMNAME": "ROPE",
+        "RATE": "259.26/kgs",
+        "AMOUNT": 420,
+        "ACTUALQTY": "1.620 kgs",
+        "BILLEDQTY": "1.620 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Tuf-Rs.170",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "1.620 kgs",
+          "BILLEDQTY": "1.620 kgs",
+          "AMOUNT": 420
+        }
+      },
+      {
+        "STOCKITEMNAME": "ROPE",
+        "RATE": "250.00/kgs",
+        "AMOUNT": 200,
+        "ACTUALQTY": "0.800 kgs",
+        "BILLEDQTY": "0.800 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Tuf-Rs.170",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "0.800 kgs",
+          "BILLEDQTY": "0.800 kgs",
+          "AMOUNT": 200
+        }
+      },
+      {
+        "STOCKITEMNAME": "Nylon Cheeses",
+        "RATE": "180.00/Nos",
+        "AMOUNT": 1440,
+        "ACTUALQTY": "8 Nos",
+        "BILLEDQTY": "8 Nos",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Kumaran-250gms-Rs.126/-",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "8 Nos",
+          "BILLEDQTY": "8 Nos",
+          "AMOUNT": 1440
+        }
+      },
+      {
+        "STOCKITEMNAME": "0.75/90/50",
+        "RATE": "430.46/kgs",
+        "AMOUNT": 1299.99,
+        "ACTUALQTY": "3.020 kgs",
+        "BILLEDQTY": "3.020 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Nalam Godown",
+          "BATCHNAME": "Tri-Rs.273/-",
+          "DESTINATIONGODOWNNAME": "Nalam Godown",
+          "ACTUALQTY": "3.020 kgs",
+          "BILLEDQTY": "3.020 kgs",
+          "AMOUNT": 1299.99
+        }
+      },
+      {
+        "STOCKITEMNAME": "Export Surplus New",
+        "RATE": "576.92/kgs",
+        "AMOUNT": 300,
+        "ACTUALQTY": "0.520 kgs",
+        "BILLEDQTY": "0.520 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "1.20-275/-",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "0.520 kgs",
+          "BILLEDQTY": "0.520 kgs",
+          "AMOUNT": 300
+        }
+      },
+      {
+        "STOCKITEMNAME": "Gloves",
+        "RATE": "10.00/Nos",
+        "AMOUNT": 100,
+        "ACTUALQTY": "10 Nos",
+        "BILLEDQTY": "10 Nos",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Blue-RRR-Rs.6/-",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "10 Nos",
+          "BILLEDQTY": "10 Nos",
+          "AMOUNT": 100
+        }
+      },
+      {
+        "STOCKITEMNAME": "Gloves",
+        "RATE": "12.00/Nos",
+        "AMOUNT": 240,
+        "ACTUALQTY": "20 Nos",
+        "BILLEDQTY": "20 Nos",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Blue-60gms-RR-Rs.8.50",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "20 Nos",
+          "BILLEDQTY": "20 Nos",
+          "AMOUNT": 240
+        }
+      },
+      {
+        "STOCKITEMNAME": "Anchor Gaff Hooks",
+        "RATE": "140.00/Nos",
+        "AMOUNT": 840,
+        "ACTUALQTY": "6 Nos",
+        "BILLEDQTY": "6 Nos",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "8/0-8mm-Rs.85/-",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "6 Nos",
+          "BILLEDQTY": "6 Nos",
+          "AMOUNT": 840
+        }
+      }
+    ]
+  },
+  {
+    "DATE": "20260401",
+    "VOUCHERTYPENAME": "Sales/Cr Mani",
+    "VOUCHERNUMBER": 1,
+    "REFERENCE": "CR/1",
+    "MASTERID": 174170,
+    "ALLINVENTORYENTRIES.LIST": [
+      {
+        "STOCKITEMNAME": "3.50 White F.Line",
+        "RATE": "470.00/kgs",
+        "AMOUNT": 9635,
+        "ACTUALQTY": "20.500 kgs",
+        "BILLEDQTY": "20.500 kgs",
+        "BATCHALLOCATIONS.LIST": {
+          "MFDON": "",
+          "GODOWNNAME": "Main Location",
+          "BATCHNAME": "Gd-Rs.250/-",
+          "DESTINATIONGODOWNNAME": "Main Location",
+          "ACTUALQTY": "20.500 kgs",
+          "BILLEDQTY": "20.500 kgs",
+          "AMOUNT": 9635
+        }
+      }
+    ]
+  }
+]
