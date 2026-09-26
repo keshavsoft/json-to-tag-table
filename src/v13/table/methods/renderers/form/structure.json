@@ -84,6 +84,89 @@
             }
         ]
     },
+    "stackedWithButtons": {
+        "tagName": "div",
+        "attributes": {
+            "class": "card shadow-sm"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-header fw-semibold"
+                },
+                "children": [
+                    {
+                        "tagName": "span",
+                        "textContent": "Ledger Details"
+                    }
+                ]
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-body"
+                },
+                "jsonToSpec": {
+                    "operation": "loopArray",
+                    "source": "fields",
+                    "template": {
+                        "tagName": "div",
+                        "attributes": {
+                            "class": "mb-3"
+                        },
+                        "children": [
+                            {
+                                "tagName": "label",
+                                "attributes": {
+                                    "class": "form-label"
+                                },
+                                "textContent": "${label}"
+                            },
+                            {
+                                "tagName": "input",
+                                "attributes": {
+                                    "type": "${type}",
+                                    "class": "form-control",
+                                    "value": "${value}",
+                                    "name": "${key}",
+                                    "readonly": "${readonly}",
+                                    "disabled": "${disabled}"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "children": []
+            },
+            {
+                "tagName": "div",
+                "attributes": {
+                    "class": "card-footer bg-white border-top-0 d-flex justify-content-end gap-2 pt-0 pb-3"
+                },
+                "children": [
+                    {
+                        "tagName": "button",
+                        "attributes": {
+                            "type": "button",
+                            "class": "btn btn-outline-secondary btn-sm",
+                            "id": "btn-form-new"
+                        },
+                        "textContent": "New"
+                    },
+                    {
+                        "tagName": "button",
+                        "attributes": {
+                            "type": "button",
+                            "class": "btn btn-primary btn-sm",
+                            "id": "btn-form-save"
+                        },
+                        "textContent": "Save"
+                    }
+                ]
+            }
+        ]
+    },
     "inline": {
         "tagName": "div",
         "attributes": {

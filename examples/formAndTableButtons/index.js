@@ -13,12 +13,38 @@ const dataProvider = createDataProvider({
 
 const startFunc = async () => {
     const data = await dataProvider.read();
-    const firstRow = data?.[0] || {};
+    let selectedRowIndex = 0;
 
     // 1. Separate scalar columns for the header form (exclude nested array lists)
     const headerColumns = columns.filter(col => !col.key.endsWith(".LIST"));
 
-    // Helper to render / update the vertical form on top
+    // 2. Render / refresh the Table in-place (without full page refresh)
+    const renderTable = () => {
+        const tableContainer = document.getElementById("table-container");
+        if (tableContainer) tableContainer.innerHTML = "";
+
+        const table = new Table({
+            theme: "default",
+            data,
+            columns,
+            config
+        });
+
+        table.methods.render({
+            targetHtmlId: "table-container",
+            inSkeletonType: "tableSimple"
+        });
+
+        // Highlight selected row in table
+        if (tableContainer && selectedRowIndex !== null) {
+            const trs = tableContainer.querySelectorAll("tbody tr");
+            if (trs[selectedRowIndex]) {
+                trs[selectedRowIndex].classList.add("table-primary");
+            }
+        }
+    };
+
+    // 3. Render / update the vertical form with action buttons
     const updateForm = (rowData) => {
         const formContainer = document.getElementById("form-container");
         if (formContainer) formContainer.innerHTML = "";
@@ -28,27 +54,80 @@ const startFunc = async () => {
             targetHtmlId: "form-container",
             inColumns: headerColumns,
             inData: rowData,
-            variant: "stacked"
+            variant: "stackedWithButtons"
         });
+
+        attachFormEvents();
     };
 
-    // 2. Render Vertical Form on Top (populated initially with first row)
-    updateForm(firstRow);
+    // 4. Attach events to form buttons: Save (in-place table refresh) & New (clear form)
+    const attachFormEvents = () => {
+        const btnSave = document.getElementById("btn-form-save");
+        const btnNew = document.getElementById("btn-form-new");
+        const formContainer = document.getElementById("form-container");
 
-    // 3. Render Table Below
-    const table = new Table({
-        theme: "default",
-        data,
-        columns,
-        config
-    });
+        if (btnSave && formContainer) {
+            btnSave.addEventListener("click", () => {
+                const dateInput = formContainer.querySelector('input[name="DATE"]');
+                const voucherInput = formContainer.querySelector('input[name="VOUCHERNUMBER"]');
+                const masterIdInput = formContainer.querySelector('input[name="MASTERID"]');
 
-    table.methods.render({
-        targetHtmlId: "table-container",
-        inSkeletonType: "tableSimple"
-    });
+                const dateVal = dateInput?.value || "";
+                const voucherVal = voucherInput?.value || "";
+                const masterIdVal = masterIdInput?.value || "";
 
-    // 4. Interactive Row Selection: clicking any table row populates the form on top
+                if (selectedRowIndex !== null && data[selectedRowIndex]) {
+                    // Update existing row
+                    data[selectedRowIndex].DATE = dateVal;
+                    data[selectedRowIndex].VOUCHERNUMBER = voucherVal ? (Number(voucherVal) || voucherVal) : data[selectedRowIndex].VOUCHERNUMBER;
+                    data[selectedRowIndex].MASTERID = masterIdVal ? (Number(masterIdVal) || masterIdVal) : data[selectedRowIndex].MASTERID;
+                } else {
+                    // Append new row
+                    const newRow = {
+                        DATE: dateVal || new Date().toISOString().slice(0, 10).replace(/-/g, ""),
+                        VOUCHERNUMBER: voucherVal ? (Number(voucherVal) || voucherVal) : (data.length + 1),
+                        MASTERID: masterIdVal ? (Number(masterIdVal) || masterIdVal) : (174169 + data.length),
+                        "ALLINVENTORYENTRIES.LIST": []
+                    };
+                    data.push(newRow);
+                    selectedRowIndex = data.length - 1;
+                }
+
+                // Visual button feedback
+                const originalText = btnSave.textContent;
+                btnSave.textContent = "Saved!";
+                btnSave.classList.replace("btn-primary", "btn-success");
+                setTimeout(() => {
+                    btnSave.textContent = originalText;
+                    btnSave.classList.replace("btn-success", "btn-primary");
+                }, 1000);
+
+                // Re-render ONLY the table below (no full page reload!)
+                renderTable();
+            });
+        }
+
+        if (btnNew) {
+            btnNew.addEventListener("click", () => {
+                selectedRowIndex = null;
+                updateForm({ DATE: "", VOUCHERNUMBER: "", MASTERID: "" });
+
+                // Remove highlight from table
+                const tableContainer = document.getElementById("table-container");
+                if (tableContainer) {
+                    tableContainer.querySelectorAll("tbody tr.table-primary").forEach(tr => {
+                        tr.classList.remove("table-primary");
+                    });
+                }
+            });
+        }
+    };
+
+    // 5. Initial setup: render form on top and table below
+    updateForm(data?.[0] || {});
+    renderTable();
+
+    // 6. Interactive Row Selection: clicking a table row populates the form on top
     const tableContainer = document.getElementById("table-container");
     if (tableContainer) {
         tableContainer.addEventListener("click", (event) => {
@@ -60,7 +139,14 @@ const startFunc = async () => {
 
             const rowIndex = tr.sectionRowIndex;
             if (data[rowIndex]) {
-                updateForm(data[rowIndex]);
+                selectedRowIndex = rowIndex;
+                updateForm(data[selectedRowIndex]);
+
+                // Update row highlight
+                tableContainer.querySelectorAll("tbody tr.table-primary").forEach(r => {
+                    r.classList.remove("table-primary");
+                });
+                tr.classList.add("table-primary");
             }
         });
     }
