@@ -1,0 +1,181 @@
+{
+    "rowKeys": {
+        "id": "",
+        "title": "",
+        "type": "aggregate",
+        "values": {}
+    },
+    "types": {
+        "aggregate": {
+            "description": "Calculates column-level aggregations directly across table dataset records",
+            "supportedFunctions": ["sum", "count", "avg", "min", "max"]
+        },
+        "eval": {
+            "description": "Evaluates dynamic mathematical expressions using calculated values from preceding row IDs",
+            "scope": "Any prior row with an 'id' property has its computed column values available in the expression scope",
+            "example": "totals.inwardQty - totals.outwardQty"
+        },
+        "input": {
+            "description": "Renders an input controls row across active columns for inline data entry or filtering",
+            "scope": "Creates input elements per column with customizable placeholders and attributes",
+            "example": "{ \"id\": \"entryRow\", \"type\": \"input\", \"title\": \"Add New\" }"
+        }
+    },
+    "variations": {
+        "multiRowStats": {
+            "title": "Multi-Row Statistical Breakdown",
+            "description": "Sequential statistical metrics (count, sum, avg, min, max) stacked across separate rows",
+            "sample": [
+                {
+                    "id": "countRow",
+                    "type": "aggregate",
+                    "title": "Total Records",
+                    "values": { "vouchernumber": "count" }
+                },
+                {
+                    "id": "minRow",
+                    "type": "aggregate",
+                    "title": "Minimum Value",
+                    "values": { "inwardQty": "min" }
+                },
+                {
+                    "id": "maxRow",
+                    "type": "aggregate",
+                    "title": "Maximum Value",
+                    "values": { "inwardQty": "max" }
+                },
+                {
+                    "id": "avgRow",
+                    "type": "aggregate",
+                    "title": "Average Quantity",
+                    "values": { "inwardQty": "avg" }
+                },
+                {
+                    "id": "totalRow",
+                    "type": "aggregate",
+                    "title": "Grand Total",
+                    "values": { "inwardQty": "sum" }
+                }
+            ]
+        },
+        "multiColumnSummary": {
+            "title": "Multi-Column Summary",
+            "description": "Single footer row aggregating different metrics across different columns",
+            "sample": [
+                {
+                    "id": "summaryRow",
+                    "type": "aggregate",
+                    "title": "Summary",
+                    "values": {
+                        "itemCode": "count",
+                        "inwardQty": "sum",
+                        "rate": "avg",
+                        "amount": "sum"
+                    }
+                }
+            ]
+        },
+        "derivedCalculation": {
+            "title": "Derived / Evaluated Row",
+            "description": "Calculates net balances or differences using row IDs from prior aggregate rows",
+            "sample": [
+                {
+                    "id": "gross",
+                    "type": "aggregate",
+                    "title": "Gross Quantity",
+                    "values": {
+                        "inwardQty": "sum",
+                        "outwardQty": "sum"
+                    }
+                },
+                {
+                    "id": "netBalance",
+                    "type": "eval",
+                    "title": "Net Balance",
+                    "values": {
+                        "inwardQty": "gross.inwardQty - gross.outwardQty"
+                    }
+                }
+            ]
+        },
+        "financialStatement": {
+            "title": "Financial Statement (Subtotal -> Tax -> Grand Total)",
+            "description": "Accounting-style multi-tier summary with tax computation and total evaluation",
+            "sample": [
+                {
+                    "id": "subtotal",
+                    "type": "aggregate",
+                    "title": "Subtotal",
+                    "values": { "amount": "sum" }
+                },
+                {
+                    "id": "tax",
+                    "type": "eval",
+                    "title": "GST (18%)",
+                    "values": { "amount": "subtotal.amount * 0.18" }
+                },
+                {
+                    "id": "grandTotal",
+                    "type": "eval",
+                    "title": "Grand Total",
+                    "values": { "amount": "subtotal.amount + tax.amount" }
+                }
+            ]
+        },
+        "metricRatio": {
+            "title": "Performance Ratio / Percentage",
+            "description": "Calculates percentage fulfillment or ratios between columns",
+            "sample": [
+                {
+                    "id": "metrics",
+                    "type": "aggregate",
+                    "title": "Target vs Actual",
+                    "values": { "target": "sum", "actual": "sum" }
+                },
+                {
+                    "id": "achievement",
+                    "type": "eval",
+                    "title": "Achievement %",
+                    "values": {
+                        "actual": "Math.round((metrics.actual / metrics.target) * 100) + '%'"
+                    }
+                }
+            ]
+        }
+    },
+    "samples": [
+        {
+            "id": "totals",
+            "title": "Total Quantity",
+            "type": "aggregate",
+            "values": {
+                "inwardQty": "sum",
+                "outwardQty": "sum"
+            }
+        },
+        {
+            "id": "itemCount",
+            "title": "Total Records",
+            "type": "aggregate",
+            "values": {
+                "vouchernumber": "count"
+            }
+        },
+        {
+            "id": "averages",
+            "title": "Average Inward",
+            "type": "aggregate",
+            "values": {
+                "inwardQty": "avg"
+            }
+        },
+        {
+            "id": "netBalance",
+            "title": "Net Balance",
+            "type": "eval",
+            "values": {
+                "inwardQty": "totals.inwardQty - totals.outwardQty"
+            }
+        }
+    ]
+}
