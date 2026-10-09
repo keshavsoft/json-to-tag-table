@@ -1,20 +1,21 @@
 {
   "name": "json-to-tag-table",
-  "version": "17.1.0",
+  "version": "18.1.0",
   "description": "Standalone, config-driven Table renderer built on top of json-to-dom",
   "type": "module",
-  "main": "src/v17/index.js",
+  "main": "src/index.js",
   "files": [
     "src",
     "docs",
     "README.md"
   ],
   "exports": {
-    ".": "./src/v13/index.js"
+    ".": "./src/index.js"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test": "node test/v18/index.js"
   },
   "keywords": [
     "json-to-dom",
@@ -29,7 +30,8 @@
     "vite": "^5.4.2"
   },
   "dependencies": {
-    "@keshavsoft/json-to-tag": "^1.4.1",
+    "@keshavsoft/json-to-tag": "^1.9.3",
+    "json-renderers-build": "^1.7.1",
     "json-to-spec": "^24.1.1"
   }
 }
