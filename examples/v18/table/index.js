@@ -2,7 +2,10 @@ import { Table } from "../../../docs/dist/v18/min.js";
 import columns from "./columns.json" with { type: "json" };
 import config from "./config.json" with { type: "json" };
 
-import { createDataProvider } from "https://keshavsoft.github.io/json-to-dom-provider/dist/v1/min.js";
+// import { createDataProvider } from "https://keshavsoft.github.io/json-to-dom-provider/dist/v1/min.js";
+
+import { createDataProvider } from "./jsonToDom/min.js";
+
 
 // Data Provider configured with endpoints for data reading
 const dataProvider = createDataProvider({

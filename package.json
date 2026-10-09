@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "@keshavsoft/json-to-tag": "^1.9.3",
-    "json-renderers-build": "^1.7.1",
-    "json-to-spec": "^24.1.1"
+    "json-renderers-build": "^1.7.1"
   }
 }

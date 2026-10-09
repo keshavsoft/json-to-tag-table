@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON to Tag Table | Renderer</title>
+    <style>
+      :root {
+        --bg: #08151f;
+        --panel: #112535;
+        --text: #edf6ff;
+        --muted: #a8bfd0;
+        --line: rgba(255,255,255,0.08);
+        --accent: #5ee6a8;
+        --accent-2: #6ab8ff;
+        --yellow: #f4d35e;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, var(--bg) 0%, #081018 100%);
+        color: var(--text);
+        font-family: "Segoe UI", sans-serif;
+      }
+      a { color: inherit; text-decoration: none; }
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 28px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(8, 21, 31, 0.8);
+      }
+      .brand { color: var(--accent); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+      .nav { display: flex; gap: 12px; flex-wrap: wrap; }
+      .nav a {
+        color: var(--muted); padding: 10px 14px; border: 1px solid transparent; border-radius: 10px;
+      }
+      .nav a.active, .nav a:hover { background: rgba(255,255,255,0.02); border-color: var(--line); color: var(--text); }
+      .page { max-width: 1100px; margin: 40px auto; padding: 0 20px 50px; }
+      .card { background: rgba(17,37,53,0.9); border: 1px solid var(--line); border-radius: 18px; padding: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.30); }
+      h1 { margin-top: 0; }
+      .split { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      .panel {
+        border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); padding: 18px;
+      }
+      pre {
+        margin: 0; color: var(--yellow); font-family: Consolas, monospace; line-height: 1.7; white-space: pre-wrap;
+      }
+      ul { color: var(--muted); line-height: 1.9; }
+      @media (max-width: 760px) { .split { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">JSON to Tag Table</div>
+      <nav class="nav">
+        <a href="index.html">Story</a>
+        <a href="flow.html">Flow</a>
+        <a href="architecture.html">Architecture</a>
+        <a class="active" href="renderer.html">Renderer</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="card">
+        <h1>The renderer idea</h1>
+        <div class="split">
+          <div class="panel">
+            <h3>JSON blueprint</h3>
+            <pre>{
+  tagName: 'table',
+  children: [
+    { tagName: 'thead', children: [...] },
+    { tagName: 'tbody', children: [...] }
+  ]
+}</pre>
+          </div>
+
+          <div class="panel">
+            <h3>What happens next</h3>
+            <ul>
+              <li>The builder creates a spec from data + columns.</li>
+              <li>The DOM engine turns that spec into HTML elements.</li>
+              <li>The browser finally shows the real table.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px; color: var(--muted); line-height: 1.8;">
+          So the table is not manually written as HTML everywhere. The system describes it in JSON,
+          and the renderer turns that description into working DOM.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
