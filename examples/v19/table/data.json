@@ -1,0 +1,47 @@
+[
+  {
+    "DATE": "2026-04-01",
+    "VOUCHERNUMBER": 1,
+    "MASTERID": 174169,
+    "STOCKITEMNAME": "Shading Net Kgs",
+    "ACTUALQTY": "4.560 kgs",
+    "RATE": "280.90/kgs",
+    "AMOUNT": "1,280.90"
+  },
+  {
+    "DATE": "2026-04-01",
+    "VOUCHERNUMBER": 2,
+    "MASTERID": 174170,
+    "STOCKITEMNAME": "ROPE High Tensile",
+    "ACTUALQTY": "0.320 kgs",
+    "RATE": "312.50/kgs",
+    "AMOUNT": "100.00"
+  },
+  {
+    "DATE": "2026-04-02",
+    "VOUCHERNUMBER": 3,
+    "MASTERID": 174171,
+    "STOCKITEMNAME": "Micro Carbide Milling Cutter",
+    "ACTUALQTY": "10 pcs",
+    "RATE": "89.50/pcs",
+    "AMOUNT": "895.00"
+  },
+  {
+    "DATE": "2026-04-02",
+    "VOUCHERNUMBER": 4,
+    "MASTERID": 174172,
+    "STOCKITEMNAME": "High-Torque Stepper Motor",
+    "ACTUALQTY": "2 pcs",
+    "RATE": "210.00/pcs",
+    "AMOUNT": "420.00"
+  },
+  {
+    "DATE": "2026-04-03",
+    "VOUCHERNUMBER": 5,
+    "MASTERID": 174173,
+    "STOCKITEMNAME": "Linear Guide Rail 500mm",
+    "ACTUALQTY": "1 pcs",
+    "RATE": "340.00/pcs",
+    "AMOUNT": "340.00"
+  }
+]

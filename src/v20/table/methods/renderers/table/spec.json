@@ -1,0 +1,18 @@
+{
+  "buildHeader": {
+    "tagName": "th",
+    "textContent": "${label}",
+    "attributes": {
+      "scope": "col"
+    }
+  },
+  "buildBody": {
+    "outerTemplate": {
+      "tagName": "tr"
+    },
+    "innerTemplate": {
+      "tagName": "td",
+      "textContent": "${rowValue}"
+    }
+  }
+}
